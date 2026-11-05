@@ -1,0 +1,6 @@
+# Public repo: session cookies and channel data must never land here.
+*cookies*.txt
+youtube/
+descriptions.json
+client_secret*.json
+token*.json
