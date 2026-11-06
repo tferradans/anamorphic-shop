@@ -55,14 +55,8 @@ a:hover { color: #BFDCFF; }
   align-items: center;
   gap: 10px;
 }
-.brand {
-  margin: 0;
-  font-weight: 700;
-  font-size: 34px;
-  letter-spacing: .14em;
-  text-transform: uppercase;
-  text-align: center;
-}
+.brand { margin: 0; width: min(500px, 100%); }
+.brand img { display: block; width: 100%; height: auto; }
 .brand-line { width: min(560px, 80%); height: 1px; background: var(--accent); opacity: .6; }
 .brand-sub { margin: 0; font-size: 14px; color: var(--muted); text-align: center; letter-spacing: .02em; }
 
@@ -468,7 +462,7 @@ a:hover { color: #BFDCFF; }
 /* Phones: dialogs take the whole screen. */
 @media (max-width: 700px) {
   .site-header { padding: 28px 16px 18px; }
-  .brand { font-size: 20px; }
+  .brand { width: min(300px, 100%); }
   .brand-line { width: 240px; }
   .books {
     grid-template-columns: none;
