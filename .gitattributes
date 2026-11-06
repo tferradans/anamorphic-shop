@@ -1,0 +1,4 @@
+# Downloads must publish byte for byte, with no line ending changes.
+files/** binary
+models/** binary
+vendor/** -text
