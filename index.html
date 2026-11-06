@@ -5,37 +5,47 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex">
 <title>Anamorphic Cookbook Store</title>
-<style>
-  body {
-    margin: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 16px;
-    padding: 16px;
-    box-sizing: border-box;
-    background: #0E0F11;
-    color: #ECEDEE;
-    font-family: Roboto, Arial, sans-serif;
-    font-weight: 300;
-    text-align: center;
-  }
-  h1 {
-    margin: 0;
-    padding-bottom: 16px;
-    border-bottom: 1px solid rgba(79, 163, 255, .6);
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: .2em;
-    text-transform: uppercase;
-  }
-  p { margin: 0; color: #A3A9B0; }
-</style>
+<meta name="description" content="Free anamorphic books, presets, LUTs, aperture discs and printable parts.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Roboto+Mono:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/store.css">
 </head>
 <body>
-  <h1>Anamorphic Cookbook</h1>
-  <p>Free downloads are coming here soon.</p>
+<header class="site-header">
+  <h1 class="brand">Anamorphic Cookbook</h1>
+  <div class="brand-line" aria-hidden="true"></div>
+  <p class="brand-sub">Free books, presets and printable parts</p>
+</header>
+
+<section class="books" id="books" aria-label="Books"></section>
+
+<main class="files">
+  <div class="files-head">
+    <h2 class="files-title">Files</h2>
+    <div class="chips" id="chips" role="group" aria-label="Filter by category"></div>
+  </div>
+  <label class="search">
+    <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#A3A9B0" stroke-width="1.5" stroke-linecap="round"><circle cx="11" cy="11" r="7"></circle><path d="M20 20l-4-4"></path></svg>
+    <span class="visually-hidden">Search files</span>
+    <input type="search" id="search" placeholder="Search files: clamp, Jupiter, preset, LUT…" autocomplete="off">
+    <span class="count" id="count" aria-live="polite"></span>
+  </label>
+  <div class="notice" id="notice" hidden></div>
+  <div class="grid" id="grid"></div>
+  <p class="empty" id="empty" hidden>No files match that search.</p>
+</main>
+
+<footer class="site-footer">
+  <span>All files free.</span>
+  <a href="https://www.youtube.com/channel/UC8nvNpXmCZmg_YJFkrQsryw" rel="noopener">YouTube channel</a>
+</footer>
+
+<div class="modal" id="modal" hidden></div>
+
+<script src="js/store.js"></script>
 </body>
 </html>

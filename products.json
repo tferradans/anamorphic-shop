@@ -1,0 +1,1339 @@
+{
+ "categories": [
+  {
+   "id": "prints",
+   "label": "3D prints"
+  },
+  {
+   "id": "aperture",
+   "label": "Aperture discs"
+  },
+  {
+   "id": "design",
+   "label": "Design"
+  },
+  {
+   "id": "presets",
+   "label": "Presets"
+  },
+  {
+   "id": "luts",
+   "label": "LUTs"
+  }
+ ],
+ "books": [
+  {
+   "id": "on-a-budget",
+   "title": "Anamorphic on a Budget",
+   "fullTitle": "Anamorphic on a Budget",
+   "color": "navy",
+   "cover": "img/books/on-a-budget.jpg",
+   "pdf": "files/books/on-a-budget.pdf",
+   "downloadName": "TitoFerradans_AnamorphicOnABudget_v02.pdf",
+   "pdfSize": 8372806,
+   "pages": 104,
+   "displayPages": 104,
+   "spreads": false,
+   "tagline": "Start shooting anamorphic without breaking the bank!",
+   "description": [
+    "The improved version of the Anamorphic on a Budget guide I have at my blog!",
+    "When I wrote this guide as my graduation project in 2013, I didn't expect translating it to English. Five years after the unexpected translation and a lot of research later, I decided to revisit my original work.",
+    "This revised edition features updated key concepts, higher resolution images and an expanded section on post-production aimed not only at MagicLantern users - plus the minor bug fixes of grammar and vocabulary!"
+   ],
+   "bonus": [
+    {
+     "url": null,
+     "size": 1481443964
+    }
+   ],
+   "videos": [
+    "LC8HT4r-iNc",
+    "OLdSM7TXBCc",
+    "tlM2qz1ZwTs",
+    "2tdW7tD3Wps",
+    "2Z2l672ncyU",
+    "6TAZdR9yDdc",
+    "U9JZu48JhHE",
+    "3gOVBBF5KKE",
+    "eJdrqH7B0jU",
+    "S-AhstFVKgw",
+    "m0Vq1BAAMCQ",
+    "G5molKtQaeo",
+    "xet_d_MQIQo",
+    "VhLBAIkNsOc",
+    "SggltKc8BUY",
+    "PFtM-5IVmAg",
+    "Deg9557WjAY",
+    "-r2S8yv5aGo",
+    "FexrmvU-NHw",
+    "zoISqwQhpsA",
+    "T277hIhCLwo",
+    "iosOvSOd8vY",
+    "Dl2GSC0sW1s",
+    "XRljoCLNjiw",
+    "4u0J9hBQlao"
+   ]
+  },
+  {
+   "id": "anamorfake-it",
+   "title": "Anamorfake It",
+   "fullTitle": "Anamorfake It Until You Make It!",
+   "color": "red",
+   "cover": "img/books/anamorfake-it.jpg",
+   "pdf": "files/books/anamorfake-it.pdf",
+   "downloadName": "TitoFerradans_AnamorfakeIt_v02.pdf",
+   "pdfSize": 36122173,
+   "pages": 174,
+   "displayPages": 174,
+   "spreads": false,
+   "tagline": "Achieve the anamorphic lens look on the cheap!",
+   "description": [
+    "From the creator of Anamorphic on a Budget comes a new guide. One that doesn't involve anamorphic at all!",
+    "The goal of Anamorfake It Until You Make It is to create the anamorphic look minus the nuisances and expenses of anamorphic adapters (and, oh boy, these are expensive right now). This guide is focused on shooting spherical, keeping it cheap and delivering a look that not even pros can tell you're faking.",
+    "This is a guide with plenty of techniques using gear and tools you are likely to own - or that costs next to nothing!"
+   ],
+   "bonus": [
+    {
+     "url": null,
+     "size": 2608185070
+    }
+   ],
+   "videos": [
+    "9e4MbtnvRYg",
+    "4yoq1rPTLEs",
+    "rVpxZmIFxn0",
+    "flJ-fcKIjkA",
+    "w1bTPso-C3s",
+    "GHFQ2jUJBKM",
+    "qGyae3KADLo",
+    "ZUpsy8WTfGg",
+    "BWV2eLcc44w",
+    "wN5svMUKBek",
+    "rE1Apilw8V8",
+    "bV9EImf4arE",
+    "7m64aCQW5iQ",
+    "UVQpCepQoRk",
+    "QSrw3-05I0o",
+    "VEFLiwzVy0A",
+    "HpIBWUzwCXA",
+    "ftO94JGMEs8",
+    "BJQck1ntFIk",
+    "SsAbG1Ztrcc",
+    "9D5pWfAgSDg",
+    "D57wlOEVeGc",
+    "dUwJ_u-0xhI",
+    "QfISLZWE5ag",
+    "5j1XfkmxFS0",
+    "9YEBXmSyuWE",
+    "H-1dyeh7oCA",
+    "E5LtVEt1EDw",
+    "YXrYqPJVFos",
+    "a7El9GzKk24",
+    "HLZkIlnzjYM",
+    "_NsOLJxvRz4",
+    "sDj5mLBQwpo",
+    "H46HKg8C2OI",
+    "W3OEBmrBdVU",
+    "r_sjOZE6euk",
+    "wfXeCVdxK9k",
+    "6fpDeUl0qWo",
+    "rKsG5WCGnu4"
+   ]
+  },
+  {
+   "id": "ussr-lens-guide",
+   "title": "USSR Lens Buyer's Guide",
+   "fullTitle": "USSR Lens Buyer's Guide",
+   "color": "ochre",
+   "cover": "img/books/ussr-lens-guide.jpg",
+   "pdf": "files/books/ussr-lens-guide.pdf",
+   "downloadName": "TitoFerradans_USSR Lens Buyers Guide_v2.pdf",
+   "pdfSize": 46224830,
+   "pages": 45,
+   "displayPages": 90,
+   "spreads": true,
+   "tagline": "Dive into classic Soviet lenses for a vintage look among today's clinical optics.",
+   "description": [
+    "Soviet lenses have always been a popular and affordable option to get into vintage glass. But which ones to choose?",
+    "In this guide I'll take you through a variety of Soviet glass, focusing on the super-adaptable M42 mount which can be used on pretty much any modern camera (DSLR or mirrorless), in a way that helps you identify the lenses you like and provide an easy way to acquire them.",
+    "You will also understand Soviet lens naming conventions, learn a few online myths about them, find tutorials and recommendations for disassembly and servicing, read about extremely rare optics and the modern take on well-established optics."
+   ],
+   "bonus": [],
+   "videos": []
+  }
+ ],
+ "items": [
+  {
+   "id": "helios-44-2-gear",
+   "name": "Helios 44-2 Focus Gear",
+   "category": "prints",
+   "art": "gear",
+   "format": "STL",
+   "size": 1339666,
+   "contents": "1 file",
+   "description": "Printable focus gear for the Helios 44-2.",
+   "file": "files/helios-44-2-gear.stl",
+   "downloadName": "Helios 44-2_v6.stl",
+   "thumb": "img/items/helios-44-2-gear.png",
+   "models": [
+    {
+     "name": "Helios 44-2 v 6",
+     "file": "models/helios-44-2-gear/1.stl"
+    }
+   ],
+   "tags": [
+    "gear",
+    "focus",
+    "helios",
+    "soviet",
+    "ussr"
+   ],
+   "videos": [
+    "a7El9GzKk24"
+   ]
+  },
+  {
+   "id": "mir-1b-gear",
+   "name": "Mir 1B Focus Gear",
+   "category": "prints",
+   "art": "gear",
+   "format": "STL",
+   "size": 1354432,
+   "contents": "1 file",
+   "description": "Printable focus gear for the Mir 1B.",
+   "file": "files/mir-1b-gear.stl",
+   "downloadName": "Mir 1B_v3.stl",
+   "thumb": "img/items/mir-1b-gear.png",
+   "models": [
+    {
+     "name": "Mir 1B v 3",
+     "file": "models/mir-1b-gear/1.stl"
+    }
+   ],
+   "tags": [
+    "gear",
+    "focus",
+    "mir",
+    "soviet",
+    "ussr"
+   ],
+   "videos": [
+    "E5LtVEt1EDw"
+   ]
+  },
+  {
+   "id": "mir-10a-gear",
+   "name": "Mir 10A Focus Gear",
+   "category": "prints",
+   "art": "gear",
+   "format": "STL",
+   "size": 1371183,
+   "contents": "1 file",
+   "description": "Printable focus gear for the Mir 10A.",
+   "file": "files/mir-10a-gear.stl",
+   "downloadName": "Mir10A_black.stl",
+   "thumb": "img/items/mir-10a-gear.png",
+   "models": [
+    {
+     "name": "Mir 10A black",
+     "file": "models/mir-10a-gear/1.stl"
+    }
+   ],
+   "tags": [
+    "gear",
+    "focus",
+    "mir",
+    "soviet",
+    "ussr"
+   ],
+   "videos": [
+    "dUwJ_u-0xhI"
+   ]
+  },
+  {
+   "id": "mir-20m-gear",
+   "name": "Mir 20M Focus Gear",
+   "category": "prints",
+   "art": "gear",
+   "format": "STL",
+   "size": 1618651,
+   "contents": "1 file",
+   "description": "Printable focus gear for the Mir 20M.",
+   "file": "files/mir-20m-gear.stl",
+   "downloadName": "Mir20M_v1.stl",
+   "thumb": "img/items/mir-20m-gear.png",
+   "models": [
+    {
+     "name": "Mir 20M v 1",
+     "file": "models/mir-20m-gear/1.stl"
+    }
+   ],
+   "tags": [
+    "gear",
+    "focus",
+    "mir",
+    "soviet",
+    "ussr"
+   ],
+   "videos": [
+    "D57wlOEVeGc"
+   ]
+  },
+  {
+   "id": "tair-11a-gear",
+   "name": "Tair 11A Focus Gear",
+   "category": "prints",
+   "art": "gear",
+   "format": "STL",
+   "size": 1431735,
+   "contents": "1 file",
+   "description": "Printable focus gear for the Tair 11A.",
+   "file": "files/tair-11a-gear.stl",
+   "downloadName": "Tair11A_v2.stl",
+   "thumb": "img/items/tair-11a-gear.png",
+   "models": [
+    {
+     "name": "Tair 11A v 2",
+     "file": "models/tair-11a-gear/1.stl"
+    }
+   ],
+   "tags": [
+    "gear",
+    "focus",
+    "tair",
+    "soviet",
+    "ussr"
+   ],
+   "videos": [
+    "5j1XfkmxFS0"
+   ]
+  },
+  {
+   "id": "iscorama-42-gear",
+   "name": "Iscorama 42 Focus Gear",
+   "category": "prints",
+   "art": "gear",
+   "format": "STL",
+   "size": 1458272,
+   "contents": "1 file",
+   "description": "Printable focus gear for the Iscorama 42.",
+   "file": "files/iscorama-42-gear.stl",
+   "downloadName": "Iscorama42.stl",
+   "thumb": "img/items/iscorama-42-gear.png",
+   "models": [
+    {
+     "name": "Iscorama 42",
+     "file": "models/iscorama-42-gear/1.stl"
+    }
+   ],
+   "tags": [
+    "gear",
+    "focus",
+    "iscorama",
+    "isco"
+   ],
+   "videos": [
+    "4gZ6Ge8LLH0"
+   ]
+  },
+  {
+   "id": "isco-inflight-clamp",
+   "name": "Isco Inflight 16-1.75x Clamp",
+   "category": "prints",
+   "art": "lens",
+   "format": "ZIP",
+   "size": 26908,
+   "contents": "2 files: STL",
+   "description": "Top and bottom clamp pieces for the Isco Inflight 16-1.75x.",
+   "file": "files/isco-inflight-clamp.zip",
+   "downloadName": "Isco Inflight 16-1.75x Clamp.zip",
+   "thumb": "img/items/isco-inflight-clamp.png",
+   "models": [
+    {
+     "name": "Clamp Bottom 5",
+     "file": "models/isco-inflight-clamp/1.stl"
+    },
+    {
+     "name": "Clamp Top 5",
+     "file": "models/isco-inflight-clamp/2.stl"
+    }
+   ],
+   "tags": [
+    "isco",
+    "iscomorphot",
+    "inflight"
+   ],
+   "videos": [
+    "E2HuZi5bb_o"
+   ]
+  },
+  {
+   "id": "kowa-bh-clamp",
+   "name": "Kowa B&H Custom Clamp",
+   "category": "prints",
+   "art": "lens",
+   "format": "ZIP",
+   "size": 59692,
+   "contents": "3 files: STL",
+   "description": "Custom clamp for the Kowa B&H, with an Elmo II filler.",
+   "file": "files/kowa-bh-clamp.zip",
+   "downloadName": "Kowa B&H Custom Clamp.zip",
+   "thumb": "img/items/kowa-bh-clamp.png",
+   "models": [
+    {
+     "name": "Clamp Bottom",
+     "file": "models/kowa-bh-clamp/1.stl"
+    },
+    {
+     "name": "Clamp Top",
+     "file": "models/kowa-bh-clamp/2.stl"
+    },
+    {
+     "name": "Elmo 2 Filler",
+     "file": "models/kowa-bh-clamp/3.stl"
+    }
+   ],
+   "tags": [
+    "kowa",
+    "elmo",
+    "elmoscope",
+    "sankor"
+   ],
+   "videos": [
+    "ZdCu0h-AVhM",
+    "FlkW0UeuzOo",
+    "_VIHfRa-HD8",
+    "de9ma_Hzzy8",
+    "eMQRU_gIIIM",
+    "k5oYoGLxmmg",
+    "vteKAnW6E5c"
+   ]
+  },
+  {
+   "id": "kowa-16d-fillers",
+   "name": "Kowa 16-D Fillers",
+   "category": "prints",
+   "art": "part",
+   "format": "ZIP",
+   "size": 14123,
+   "contents": "2 files: STL",
+   "description": "Filler and front pieces for the Kowa 16-D.",
+   "file": "files/kowa-16d-fillers.zip",
+   "downloadName": "Kowa 16-D Fillers.zip",
+   "thumb": "img/items/kowa-16d-fillers.png",
+   "models": [
+    {
+     "name": "Kowa 16-D filler",
+     "file": "models/kowa-16d-fillers/1.stl"
+    },
+    {
+     "name": "Kowa 16-D front",
+     "file": "models/kowa-16d-fillers/2.stl"
+    }
+   ],
+   "tags": [
+    "kowa"
+   ],
+   "videos": [
+    "FlkW0UeuzOo"
+   ]
+  },
+  {
+   "id": "vistascope-16-clamp",
+   "name": "Vistascope 16 Front Clamp - 77mm",
+   "category": "prints",
+   "art": "lens",
+   "format": "STL",
+   "size": 352384,
+   "contents": "1 file",
+   "description": "Front clamp for the Vistascope 16, 77 mm.",
+   "file": "files/vistascope-16-clamp.stl",
+   "downloadName": "FrontClamp_Vistascope16-77mm.stl",
+   "thumb": "img/items/vistascope-16-clamp.png",
+   "models": [
+    {
+     "name": "Front Clamp Vistascope 16-77mm",
+     "file": "models/vistascope-16-clamp/1.stl"
+    }
+   ],
+   "tags": [
+    "clamp",
+    "vistascope"
+   ],
+   "videos": [
+    "50sWsIulPGs"
+   ]
+  },
+  {
+   "id": "vistascope-8-clamp",
+   "name": "Vistascope 8 Front Clamp - 58mm",
+   "category": "prints",
+   "art": "lens",
+   "format": "STL",
+   "size": 357584,
+   "contents": "1 file",
+   "description": "Front clamp for the Vistascope 8, 58 mm.",
+   "file": "files/vistascope-8-clamp.stl",
+   "downloadName": "FrontClamp_Vistascope8-58mm.stl",
+   "thumb": "img/items/vistascope-8-clamp.png",
+   "models": [
+    {
+     "name": "Front Clamp Vistascope 8-58mm",
+     "file": "models/vistascope-8-clamp/1.stl"
+    }
+   ],
+   "tags": [
+    "clamp",
+    "vistascope"
+   ],
+   "videos": [
+    "t1hnxyjNSd8"
+   ]
+  },
+  {
+   "id": "dyaliscope-clamp",
+   "name": "Dyaliscope Clamp",
+   "category": "prints",
+   "art": "lens",
+   "format": "STL",
+   "size": 141284,
+   "contents": "1 file",
+   "description": "3D-printable clamp for the Dyaliscope.",
+   "file": "files/dyaliscope-clamp.stl",
+   "downloadName": "DyaliscopeClamp.stl",
+   "thumb": "img/items/dyaliscope-clamp.png",
+   "models": [
+    {
+     "name": "Dyaliscope Clamp",
+     "file": "models/dyaliscope-clamp/1.stl"
+    }
+   ],
+   "tags": [
+    "dyaliscope"
+   ],
+   "videos": [
+    "l8_I5m4EX7Q"
+   ]
+  },
+  {
+   "id": "projector-lens-files",
+   "name": "Projector Lens Parts",
+   "category": "prints",
+   "art": "part",
+   "format": "ZIP",
+   "size": 2000896,
+   "contents": "6 files: STL",
+   "description": "Fronts and gloves for projector lenses, including Cinelux, Isco, Schneider and UltraStar.",
+   "file": "files/projector-lens-files.zip",
+   "downloadName": "ProjectorLensFiles.zip",
+   "thumb": "img/items/projector-lens-files.png",
+   "models": [
+    {
+     "name": "Cinelux Front",
+     "file": "models/projector-lens-files/1.stl"
+    },
+    {
+     "name": "Isco Premiere Glove",
+     "file": "models/projector-lens-files/2.stl"
+    },
+    {
+     "name": "Scheider Glove v 2",
+     "file": "models/projector-lens-files/3.stl"
+    },
+    {
+     "name": "Ultra Star Front",
+     "file": "models/projector-lens-files/4.stl"
+    },
+    {
+     "name": "Isco Red-glove A v 2",
+     "file": "models/projector-lens-files/5.stl"
+    },
+    {
+     "name": "Isco Red-glove B",
+     "file": "models/projector-lens-files/6.stl"
+    }
+   ],
+   "tags": [
+    "projector",
+    "cinelux",
+    "isco",
+    "schneider",
+    "ultrastar",
+    "glove"
+   ],
+   "videos": [
+    "2GFrSAQj658"
+   ]
+  },
+  {
+   "id": "jupiter-9-gears",
+   "name": "Jupiter 9 Focus Gears",
+   "category": "prints",
+   "art": "gear",
+   "format": "ZIP",
+   "size": 296402,
+   "contents": "5 files: JPG, STL, TXT",
+   "description": "Printable focus gears for the Jupiter 9, with lens photos. V1 fits older lenses with finger indents on the focus ring, and V2 fits newer ones with a round focus ring.",
+   "file": "files/jupiter-9-gears.zip",
+   "downloadName": "Jupiter9 FocusGears.zip",
+   "thumb": "img/items/jupiter-9-gears.png",
+   "models": [
+    {
+     "name": "J9 V1",
+     "file": "models/jupiter-9-gears/1.stl"
+    },
+    {
+     "name": "J9 V2",
+     "file": "models/jupiter-9-gears/2.stl"
+    }
+   ],
+   "tags": [
+    "jupiter",
+    "j9",
+    "gear",
+    "focus",
+    "soviet",
+    "ussr"
+   ],
+   "videos": [
+    "YXrYqPJVFos"
+   ]
+  },
+  {
+   "id": "sirui-gears",
+   "name": "Sirui 50mm f/1.8 1.33X Gears",
+   "category": "prints",
+   "art": "gear",
+   "format": "ZIP",
+   "size": 261935,
+   "contents": "2 files: STL",
+   "description": "Printable focus and iris gears for the Sirui 50mm f/1.8 1.33X.",
+   "file": "files/sirui-gears.zip",
+   "downloadName": "Sirui_Gears_STL.zip",
+   "thumb": "img/items/sirui-gears.png",
+   "models": [
+    {
+     "name": "Sirui-Focus",
+     "file": "models/sirui-gears/1.stl"
+    },
+    {
+     "name": "Sirui-Iris",
+     "file": "models/sirui-gears/2.stl"
+    }
+   ],
+   "tags": [
+    "sirui",
+    "gear",
+    "focus",
+    "iris"
+   ],
+   "videos": [
+    "HjOqMn_AU9Y"
+   ]
+  },
+  {
+   "id": "sirui-24-gears",
+   "name": "Sirui 24mm f/2.8 1.33X Gears",
+   "category": "prints",
+   "art": "gear",
+   "format": "ZIP",
+   "size": 260906,
+   "contents": "2 files: STL",
+   "description": "Printable focus and iris gears for the Sirui 24mm f/2.8 1.33X.",
+   "file": "files/sirui-24-gears.zip",
+   "downloadName": "Sirui_24_Gears_STL.zip",
+   "thumb": "img/items/sirui-24-gears.png",
+   "models": [
+    {
+     "name": "Sirui 24 Focus",
+     "file": "models/sirui-24-gears/1.stl"
+    },
+    {
+     "name": "Sirui 24 Iris",
+     "file": "models/sirui-24-gears/2.stl"
+    }
+   ],
+   "tags": [
+    "sirui",
+    "gear",
+    "focus",
+    "iris"
+   ],
+   "videos": [
+    "xDigs3VCuIc"
+   ]
+  },
+  {
+   "id": "sirui-original-series-color-caps",
+   "name": "Sirui Original Series Color Lens Caps",
+   "category": "design",
+   "art": "cap",
+   "format": "ZIP",
+   "size": 23675932,
+   "contents": "6 files: AI, PNG",
+   "description": "Lens cap artwork for the Sirui 24, 35, 50 and 75 mm: color PNGs, plus black versions of the 35 and 50 mm.",
+   "file": "files/sirui-original-series-color-caps.zip",
+   "downloadName": "Sirui Original Series Color Lens Caps.zip",
+   "thumb": "img/items/sirui-original-series-color-caps.png",
+   "models": [],
+   "tags": [
+    "sirui",
+    "cap",
+    "color"
+   ],
+   "videos": []
+  },
+  {
+   "id": "contax-zeiss-caps",
+   "name": "Contax Zeiss Lens Caps",
+   "category": "design",
+   "art": "cap",
+   "format": "ZIP",
+   "size": 1402814,
+   "contents": "10 files: AI, OTF, PSD",
+   "description": "Lens cap artwork for Contax Zeiss lenses, from 21 to 135 mm, plus a Photoshop template for your own lens cap art, with its font.",
+   "file": "files/contax-zeiss-caps.zip",
+   "downloadName": "Contax Zeiss Lens Caps.zip",
+   "thumb": "img/items/contax-zeiss-caps.png",
+   "models": [],
+   "tags": [
+    "contax",
+    "zeiss",
+    "cap",
+    "template",
+    "psd"
+   ],
+   "videos": []
+  },
+  {
+   "id": "ussr-caps",
+   "name": "USSR Lens Caps",
+   "category": "design",
+   "art": "cap",
+   "format": "ZIP",
+   "size": 154468,
+   "contents": "6 files: SVG",
+   "description": "Lens cap artwork for Helios, Jupiter 9, Mir 1 and Tair 11 lenses.",
+   "file": "files/ussr-caps.zip",
+   "downloadName": "USSRCaps.zip",
+   "thumb": "img/items/ussr-caps.png",
+   "models": [],
+   "tags": [
+    "ussr",
+    "soviet",
+    "helios",
+    "jupiter",
+    "mir",
+    "tair",
+    "cap"
+   ],
+   "videos": []
+  },
+  {
+   "id": "storyboard-template",
+   "name": "Storyboard Template",
+   "category": "design",
+   "art": "part",
+   "format": "JPG",
+   "size": 258101,
+   "contents": "A4, 8 frames at 2.4:1",
+   "description": "Printable A4 storyboard sheet with eight 2.4:1 frames, each with lines for notes.",
+   "file": "files/storyboard-template.jpg",
+   "downloadName": "storyboard-2.4-to-1.jpg",
+   "thumb": "img/logos/storyboard.svg",
+   "models": [],
+   "tags": [
+    "storyboard",
+    "template",
+    "print",
+    "planning"
+   ],
+   "videos": []
+  },
+  {
+   "id": "achromat",
+   "name": "Achromat Mounting Parts",
+   "category": "prints",
+   "art": "part",
+   "format": "ZIP",
+   "size": 558289,
+   "contents": "2 files: STL",
+   "description": "Mounting parts for a DIY 77mm +0.3 achromatic diopter, in two variants, with and without front threads.",
+   "file": "files/achromat.zip",
+   "downloadName": "achromat_STL.zip",
+   "thumb": "img/items/achromat.png",
+   "models": [
+    {
+     "name": "Lowpower Diopter-Cap variant A no Frontthreads",
+     "file": "models/achromat/1.stl"
+    },
+    {
+     "name": "Lowpower Diopter-Cap variant B Frontthreads",
+     "file": "models/achromat/2.stl"
+    }
+   ],
+   "tags": [
+    "achromat",
+    "diopter"
+   ],
+   "videos": [
+    "Deg9557WjAY"
+   ]
+  },
+  {
+   "id": "mccaffrey-focuser",
+   "name": "McCaffrey Focuser Parts",
+   "category": "prints",
+   "art": "part",
+   "format": "ZIP",
+   "size": 1351869,
+   "contents": "3 files: STL",
+   "description": "Parts for the McCaffrey focuser.",
+   "file": "files/mccaffrey-focuser.zip",
+   "downloadName": "McCaffrey Focuser Parts.zip",
+   "thumb": "img/items/mccaffrey-focuser.png",
+   "models": [
+    {
+     "name": "M65 to 77mm",
+     "file": "models/mccaffrey-focuser/1.stl"
+    },
+    {
+     "name": "Front Piece v 2",
+     "file": "models/mccaffrey-focuser/2.stl"
+    },
+    {
+     "name": "Rear Piece v 3",
+     "file": "models/mccaffrey-focuser/3.stl"
+    }
+   ],
+   "tags": [
+    "mccaffrey",
+    "focuser",
+    "single focus"
+   ],
+   "videos": [
+    "n_txth5OIS4"
+   ]
+  },
+  {
+   "id": "arri-wingflip",
+   "name": "ARRI Alexa Wing Flip",
+   "category": "prints",
+   "art": "part",
+   "format": "STL",
+   "size": 684184,
+   "contents": "1 file",
+   "description": "Printable WingFlip part for the ARRI Alexa.",
+   "file": "files/arri-wingflip.stl",
+   "downloadName": "ARRI Alexa WingFlip.stl",
+   "thumb": "img/items/arri-wingflip.png",
+   "models": [
+    {
+     "name": "ARRI Alexa Wing Flip",
+     "file": "models/arri-wingflip/1.stl"
+    }
+   ],
+   "tags": [
+    "arri",
+    "alexa"
+   ],
+   "videos": [
+    "LHyLzJ911Pg"
+   ]
+  },
+  {
+   "id": "cable-management",
+   "name": "Cable Management",
+   "category": "prints",
+   "art": "part",
+   "format": "STL",
+   "size": 1302500,
+   "contents": "1 file",
+   "description": "Printable cable management part for your camera rig.",
+   "file": "files/cable-management.stl",
+   "downloadName": "Anamorphic on a Budget - Cable Management.stl",
+   "thumb": "img/items/cable-management.png",
+   "models": [
+    {
+     "name": "Anamorphic on a Budget - Cable Management",
+     "file": "models/cable-management/1.stl"
+    }
+   ],
+   "tags": [
+    "rigging",
+    "cable"
+   ],
+   "videos": [
+    "-t4d0QEg_Ag"
+   ]
+  },
+  {
+   "id": "vazen-filter-holder",
+   "name": "Vazen Filter Holder",
+   "category": "prints",
+   "art": "part",
+   "format": "STL",
+   "size": 807284,
+   "contents": "1 file",
+   "description": "Printable filter holder for the Vazen.",
+   "file": "files/vazen-filter-holder.stl",
+   "downloadName": "VazenFilterHolder.stl",
+   "thumb": "img/items/vazen-filter-holder.png",
+   "models": [
+    {
+     "name": "Vazen Filter Holder",
+     "file": "models/vazen-filter-holder/1.stl"
+    }
+   ],
+   "tags": [
+    "vazen",
+    "filter"
+   ],
+   "videos": []
+  },
+  {
+   "id": "moment-52",
+   "name": "Moment 1.33X Phone Lens to 52mm",
+   "category": "prints",
+   "art": "part",
+   "format": "STL",
+   "size": 253984,
+   "contents": "1 file",
+   "description": "Filter clamp that adapts the Moment 1.33X phone lens to 52mm.",
+   "file": "files/moment-52.stl",
+   "downloadName": "moment52_v2.stl",
+   "thumb": "img/items/moment-52.png",
+   "models": [
+    {
+     "name": "Moment 52 v 2",
+     "file": "models/moment-52/1.stl"
+    }
+   ],
+   "tags": [
+    "moment",
+    "phone"
+   ],
+   "videos": [
+    "Zdhzs_IRgek"
+   ]
+  },
+  {
+   "id": "panasonic-la7200",
+   "name": "Panasonic LA7200 Attachment",
+   "category": "prints",
+   "art": "part",
+   "format": "ZIP",
+   "size": 91323,
+   "contents": "AI + STL",
+   "description": "Filter holder for the Panasonic LA7200, with a 97 mm opening. Includes the original Illustrator file and a 6 mm thick STL.",
+   "file": "files/panasonic-la7200.zip",
+   "downloadName": "Panasonic LA7200 Attachment.zip",
+   "thumb": "img/items/panasonic-la7200.png",
+   "models": [
+    {
+     "name": "Panasonic LA7200 attachment",
+     "file": "models/panasonic-la7200/1.stl"
+    }
+   ],
+   "tags": [
+    "panasonic",
+    "la7200"
+   ],
+   "videos": [
+    "Rj_CNXtfGM4"
+   ]
+  },
+  {
+   "id": "aperture-disc-helios-44",
+   "name": "Helios 44-2 58mm f/2 Oval Inserts",
+   "category": "aperture",
+   "art": "aperture",
+   "format": "ZIP",
+   "size": 1762553,
+   "contents": "AI + PDF",
+   "description": "Oval aperture inserts for the Helios 44-2 58mm f/2. Ready for laser cutting out of 0.5mm acrylic. Paint them black with a permanent marker! Aperture values range from f/4 to f/11.",
+   "file": "files/aperture-disc-helios-44.zip",
+   "downloadName": "anamorphicAperture.zip",
+   "thumb": "img/items/aperture-disc-helios-44.png",
+   "models": [],
+   "tags": [
+    "aperture",
+    "oval",
+    "bokeh",
+    "disc",
+    "insert",
+    "helios",
+    "44-2"
+   ],
+   "videos": [
+    "rKsG5WCGnu4"
+   ]
+  },
+  {
+   "id": "aperture-disc-j9",
+   "name": "Jupiter 9 85mm f/2 Oval Inserts",
+   "category": "aperture",
+   "art": "aperture",
+   "format": "ZIP",
+   "size": 428931,
+   "contents": "PDF + DXF",
+   "description": "Oval aperture inserts for the Jupiter 9 85mm f/2. Ready for laser cutting out of 0.5mm acrylic. Paint them black with a permanent marker! Aperture values range from f/4 to f/11.",
+   "file": "files/aperture-disc-j9.zip",
+   "downloadName": "aperture-disc-j9.zip",
+   "thumb": "img/items/aperture-disc-j9.png",
+   "models": [],
+   "tags": [
+    "aperture",
+    "oval",
+    "bokeh",
+    "disc",
+    "insert",
+    "jupiter",
+    "j9"
+   ],
+   "videos": []
+  },
+  {
+   "id": "aperture-disc-m1",
+   "name": "Mir 1 37mm f/2.8 Oval Inserts",
+   "category": "aperture",
+   "art": "aperture",
+   "format": "PDF",
+   "size": 393723,
+   "contents": "1 file",
+   "description": "Oval aperture inserts for the Mir 1 37mm f/2.8. Ready for laser cutting out of 0.5mm acrylic. Paint them black with a permanent marker! Aperture values range from f/5.6 to f/16.",
+   "file": "files/aperture-disc-m1.pdf",
+   "downloadName": "anamorphicApertureM1.pdf",
+   "thumb": "img/items/aperture-disc-m1.png",
+   "models": [],
+   "tags": [
+    "aperture",
+    "oval",
+    "bokeh",
+    "disc",
+    "insert",
+    "mir"
+   ],
+   "videos": []
+  },
+  {
+   "id": "aperture-disc-p29",
+   "name": "Pentacon 29mm f/2.8 Oval Inserts",
+   "category": "aperture",
+   "art": "aperture",
+   "format": "ZIP",
+   "size": 426247,
+   "contents": "PDF + DXF",
+   "description": "Oval aperture inserts for the Pentacon 29mm f/2.8. Ready for laser cutting out of 0.5mm acrylic. Paint them black with a permanent marker! Aperture values range from f/5.6 to f/16.",
+   "file": "files/aperture-disc-p29.zip",
+   "downloadName": "aperture-disc-p29.zip",
+   "thumb": "img/items/aperture-disc-p29.png",
+   "models": [],
+   "tags": [
+    "aperture",
+    "oval",
+    "bokeh",
+    "disc",
+    "insert",
+    "p29",
+    "pentacon"
+   ],
+   "videos": []
+  },
+  {
+   "id": "aperture-disc-t11a",
+   "name": "Tair 11A 135mm f/2.8 Oval Inserts",
+   "category": "aperture",
+   "art": "aperture",
+   "format": "PDF",
+   "size": 416296,
+   "contents": "1 file",
+   "description": "Oval aperture inserts for the Tair 11A 135mm f/2.8. Ready for laser cutting out of 0.5mm acrylic. Paint them black with a permanent marker! Aperture values range from f/5.6 to f/16.",
+   "file": "files/aperture-disc-t11a.pdf",
+   "downloadName": "anamorphicApertureT11A.pdf",
+   "thumb": "img/items/aperture-disc-t11a.png",
+   "models": [],
+   "tags": [
+    "aperture",
+    "oval",
+    "bokeh",
+    "disc",
+    "insert",
+    "tair"
+   ],
+   "videos": []
+  },
+  {
+   "id": "aperture-disc-50ef",
+   "name": "Canon 50mm f/1.4 EF Oval Inserts",
+   "category": "aperture",
+   "art": "aperture",
+   "format": "PDF",
+   "size": 333767,
+   "contents": "1 file",
+   "description": "Oval aperture inserts for the Canon 50mm f/1.4 EF. Ready for laser cutting out of 0.5mm acrylic. Paint them black with a permanent marker! Aperture values range from f/2.8 to f/8.",
+   "file": "files/aperture-disc-50ef.pdf",
+   "downloadName": "50EF_Ovals.pdf",
+   "thumb": "img/items/aperture-disc-50ef.png",
+   "models": [],
+   "tags": [
+    "aperture",
+    "oval",
+    "bokeh",
+    "disc",
+    "insert",
+    "canon",
+    "ef",
+    "50mm"
+   ],
+   "videos": []
+  },
+  {
+   "id": "anadistort",
+   "name": "Anamorphic Distort",
+   "category": "presets",
+   "art": "preset",
+   "format": "FFX",
+   "size": 31418,
+   "contents": "After Effects preset",
+   "description": "After Effects preset to adjust anamorphic distortion.",
+   "file": "files/anadistort.ffx",
+   "downloadName": "AnaDistort.ffx",
+   "thumb": "img/logos/ffx-after-effects.png",
+   "models": [],
+   "tags": [
+    "anadistort",
+    "after effects",
+    "distortion"
+   ],
+   "videos": [
+    "BUA-sPlSaxI"
+   ]
+  },
+  {
+   "id": "anaskew-2",
+   "name": "Anamorphic Skew",
+   "category": "presets",
+   "art": "preset",
+   "format": "FFX",
+   "size": 13327,
+   "contents": "After Effects preset",
+   "description": "After Effects preset to fix anamorphic skew.",
+   "file": "files/anaskew-2.ffx",
+   "downloadName": "AnaSkew 2.ffx",
+   "thumb": "img/logos/ffx-after-effects.png",
+   "models": [],
+   "tags": [
+    "anaskew",
+    "after effects",
+    "skew"
+   ],
+   "videos": [
+    "BUA-sPlSaxI"
+   ]
+  },
+  {
+   "id": "realign-tool",
+   "name": "ReAlign Tool",
+   "category": "presets",
+   "art": "preset",
+   "format": "FFX",
+   "size": 10005,
+   "contents": "After Effects preset",
+   "description": "After Effects realignment preset.",
+   "file": "files/realign-tool.ffx",
+   "downloadName": "ReAlign Tool.ffx",
+   "thumb": "img/logos/ffx-after-effects.png",
+   "models": [],
+   "tags": [
+    "after effects",
+    "align"
+   ],
+   "videos": []
+  },
+  {
+   "id": "amc",
+   "name": "Anamorphic Mumps Corrector",
+   "category": "presets",
+   "art": "preset",
+   "format": "ZIP",
+   "size": 3603,
+   "contents": "2 files: FFX, TXT",
+   "description": "After Effects preset to lessen anamorphic mumps and distortion, by Tito Ferradans and Lucas Pfaff.",
+   "file": "files/amc.zip",
+   "downloadName": "AMC_v1.0.zip",
+   "thumb": "img/logos/ffx-after-effects.png",
+   "models": [],
+   "tags": [
+    "after effects",
+    "mumps",
+    "amc"
+   ],
+   "videos": [
+    "jZVtoOAJ9PY"
+   ]
+  },
+  {
+   "id": "slr-magic-flare-fix",
+   "name": "SLR Magic Flare Fix",
+   "category": "presets",
+   "art": "preset",
+   "format": "ZIP",
+   "size": 11158,
+   "contents": "3 files: FFX, PRFPSET, TXT",
+   "description": "Presets to fix the SLR Magic anamorphic lens's blue flare in post.",
+   "file": "files/slr-magic-flare-fix.zip",
+   "downloadName": "SLRMagic_FF_v1.0.zip",
+   "thumb": "img/logos/ffx-after-effects.png",
+   "models": [],
+   "tags": [
+    "after effects",
+    "premiere",
+    "slr magic",
+    "flare"
+   ],
+   "videos": [
+    "cBQoXXVQmwo"
+   ]
+  },
+  {
+   "id": "ml-cropmarks",
+   "name": "Anamorphic Cropmarks",
+   "category": "presets",
+   "art": "preset",
+   "format": "ZIP",
+   "size": 4954,
+   "contents": "9 files: BMP",
+   "description": "Anamorphic cropmarks for Canon cameras running Magic Lantern.",
+   "file": "files/ml-cropmarks.zip",
+   "downloadName": "anamorphic-cropmarks_ML.zip",
+   "thumb": "img/logos/magic-lantern.svg",
+   "models": [],
+   "tags": [
+    "magic lantern",
+    "canon",
+    "cropmarks"
+   ],
+   "videos": [
+    "h5vRS5YhZdc"
+   ]
+  },
+  {
+   "id": "to-logc3",
+   "name": "V-log to LogC3 LUT",
+   "category": "luts",
+   "art": "lut",
+   "format": "CUBE",
+   "size": 862336,
+   "contents": "3D LUT",
+   "description": "LUT to convert V-log footage to ARRI LogC3.",
+   "file": "files/to-logc3.cube",
+   "downloadName": "toLogC3.cube",
+   "thumb": "img/logos/lut.png",
+   "models": [],
+   "tags": [
+    "vlog",
+    "v-log",
+    "lut",
+    "arri",
+    "alexa",
+    "logc",
+    "lumix"
+   ],
+   "videos": [
+    "RLMN3P-2Lzo"
+   ]
+  }
+ ],
+ "videoTitles": {
+  "-r2S8yv5aGo": "Buying an Anamorphic Lens? Start Here!",
+  "-t4d0QEg_Ag": "Camera RIGGING for EVERY OCCASION - Part 2 - Anamorphic Cookbook - Module 6 Chapter 4",
+  "2GFrSAQj658": "Adapting Vintage Projector Lenses to Any Camera!",
+  "2Z2l672ncyU": "Vazen 85mm T2.8 1.8x Anamorphic Lens - Vazen Goes Full Frame!",
+  "2tdW7tD3Wps": "Advantages of Mist Filters - NiSi Allure Series",
+  "3gOVBBF5KKE": "IronGlass VLFV Cine Helios 44 - Craft the Anamorphic Lens Look!",
+  "4gZ6Ge8LLH0": "Iscorama 42 - 1.5x Anamorphic Lens Review",
+  "4u0J9hBQlao": "Zona SSP - Anamorphic Webseries - Part 1/2",
+  "4yoq1rPTLEs": "Creating the Anamorphic Look in Post! Aspect Ratio, Lens Flares, Distortion and more.",
+  "50sWsIulPGs": "Vistascope / Delrama 16mm - 1.5x Prism Anamorphic Lens Review",
+  "5j1XfkmxFS0": "Anamorfake Tair 11A 135mm f/2.8  - Anamorphic Lens Look",
+  "6TAZdR9yDdc": "Sirui 35mm f/1.8 1.33x Anamorphic Lens - Widen your field of view!",
+  "6fpDeUl0qWo": "DogSchidt Optiks: FlareFactory58 - Anamorfake! Anamorphic Lens Look",
+  "7m64aCQW5iQ": "My Lens Collection - Volume 3! Anamorphic Lenses and Spherical",
+  "9D5pWfAgSDg": "Anamorfake Any Lens - Anamorphic Lens Aperture Design Tutorial",
+  "9YEBXmSyuWE": "Vid-Atlantic's CineMorph Filters - Anamorfake! Anamorphic Lens Look",
+  "9e4MbtnvRYg": "Mix Anamorphic Lenses + Anamorfake Techniques! Boost your Visual Style!",
+  "BJQck1ntFIk": "Anamorfake Contax Zeiss 35/2.8 - Anamorphic Lens Look!",
+  "BUA-sPlSaxI": "Fix Anamorphic Skew and Adjust Distortion - Anamorphic Cookbook - Module 8 Chapter 2",
+  "BWV2eLcc44w": "Opening the Door - A Short Film Faking The Anamorphic Look",
+  "D57wlOEVeGc": "Anamorfake Mir 20M 20mm f/3.5 - Anamorphic Lens Look",
+  "Deg9557WjAY": "DIY 77mm +0.3 Achromatic Diopter For $20 - Anamorphic Lens Shooting!",
+  "Dl2GSC0sW1s": "Bolex Moller 16/32/1.5x vs Iscorama 36 - Anamorphic Lens Comparison",
+  "E2HuZi5bb_o": "Iscomorphot Inflight 16/1.75x Anamorphic Lens Review",
+  "E5LtVEt1EDw": "Mir 1B 37mm f/2.8 Extreme Mod - Anamorfake! Anamorphic Lens Look",
+  "FexrmvU-NHw": "DIY Portable Focus Station from Amazon parts featuring Tilta Nucleus Nano",
+  "FlkW0UeuzOo": "Kowa 16-D - 2x Anamorphic Lens Review",
+  "G5molKtQaeo": "How I Put Together a LOMO Squarefront Anamorphics Lens Set",
+  "GHFQ2jUJBKM": "Faking Anamorphic Lens Flares in Camera!",
+  "H-1dyeh7oCA": "Vid-Atlantic's CineMorph Mod - Sigma 18-35mm f/1.8 ART - Anamorfake! Anamorphic Lens Look",
+  "H46HKg8C2OI": "Helios 44-2 58mm f/2 Extreme Mod - Anamorfake! Anamorphic Lens Look",
+  "HLZkIlnzjYM": "Anamorfake USSR Amber Lens Set - Crafting the Anamorphic Lens Look",
+  "HjOqMn_AU9Y": "Upgrade the Sirui 50mm f/1.8 1.33x Anamorphic Lens - Flares, Bokeh, Gears!",
+  "HpIBWUzwCXA": "Anamorfake Rokinon/Samyang in Low Light - Anamorphic Lens Look!",
+  "LC8HT4r-iNc": "In Praise of Anamorphic",
+  "LHyLzJ911Pg": "ARRI PL Wing Mod Modeling",
+  "OLdSM7TXBCc": "Give me TELEPHOTO ANAMORPHIC! Sirui 135mm T2.9 1.8X Anamorphic Lens",
+  "PFtM-5IVmAg": "Get Your Anamorphic Merch!",
+  "QSrw3-05I0o": "Contax Zeiss Lens Mods - Anamorfake! Anamorphic Lens Look!",
+  "QfISLZWE5ag": "Canon EF 50mm f/1.4 USM - Anamorfake! Anamorphic Lens Look",
+  "RLMN3P-2Lzo": "Realtime LUT on the Lumix S5IIX to match an Arri Alexa Mini!",
+  "Rj_CNXtfGM4": "Make Your Own Filter Holder for Panasonic LA7200 Anamorphic Lens",
+  "S-AhstFVKgw": "Anamorphic Lenses for Your Phone! - Sirui, Moment, Moondog, Ulanzi and Kapkur Comparison",
+  "SggltKc8BUY": "Las Vegas Moment Anamorphic Lens Test",
+  "SsAbG1Ztrcc": "Anamorfake Contax Zeiss 28/2.8 - Anamorphic Lens Look!",
+  "T277hIhCLwo": "Vazen 40mm T2 - 1.8x Anamorphic Lens Review",
+  "U9JZu48JhHE": "White Noise - Sci-Fi Anamorphic Short Film - Behind the Scenes",
+  "UVQpCepQoRk": "Ironglass Lenses Review - USSR Lens Mods - Anamorfake! Anamorphic Lens Look",
+  "VEFLiwzVy0A": "IronGlass USSR Lens Mods - Anamorfake! Anamorphic Lens Look",
+  "VhLBAIkNsOc": "How I Fell For a LOMO Anamorphic Lens Scam - Part 1/2",
+  "W3OEBmrBdVU": "Helios 44-2 Anamorfake! Anamorphic Lens Look",
+  "XRljoCLNjiw": "RED Scarlet + Contax Zeiss + Panasonic LA7200 Anamorphic Lens",
+  "YXrYqPJVFos": "Jupiter 9 85mm f/2 Extreme Mod - Anamorfake! Anamorphic Lens Look",
+  "ZUpsy8WTfGg": "The Anamorphic Look off the shelf! Cheap Anamorfake Options",
+  "ZdCu0h-AVhM": "Elmoscope II vs Kowa B&H - Anamorphic Lens Shootout!",
+  "Zdhzs_IRgek": "$5 Filter Clamp for the Moment Anamorphic Lens",
+  "_NsOLJxvRz4": "Helios 44-2 Adjustable Oval Aperture Mod - Anamorfake! Anamorphic Lens Look",
+  "_VIHfRa-HD8": "Sankor 16-D - 2x Vintage Anamorphic Lens Review",
+  "a7El9GzKk24": "Helios 44-2 58mm f/2 Extreme Mod Mk II - Anamorfake! Anamorphic Lens Look",
+  "bV9EImf4arE": "Anamorfake It Until You Make It! A Guide to Crafting the Anamorphic Lens Look",
+  "cBQoXXVQmwo": "How to fix SLR Magic's Anamorphic Lens Super Blue Flare in Post",
+  "dUwJ_u-0xhI": "Anamorfake the Mir 10A 28mm f/3.5 - Anamorphic Lens Look",
+  "de9ma_Hzzy8": "Kowa 8-Z - 2x Vintage Anamorphic Lens Review",
+  "eJdrqH7B0jU": "The Ultimate Aspect Ratio and Anamorphic Lens Desqueeze Tutorial",
+  "eMQRU_gIIIM": "Single Focus Solutions for Anamorphic Lenses Shootout!",
+  "flJ-fcKIjkA": "Anamorphic Look by modifying Rokinon / Samyang Lenses! Anamorfake Tutorial Series",
+  "ftO94JGMEs8": "Rokinon/Samyang Anamorfake Daytime - Anamorphic Lens Look!",
+  "h5vRS5YhZdc": "Canon EOS MagicLantern and Shooting with Anamorphic Lenses",
+  "iosOvSOd8vY": "Atlas Orion 40mm T2 - 2x Anamorphic Lens Review",
+  "jZVtoOAJ9PY": "Fix Anamorphic Mumps and Overcompressed Edges - Anamorphic Cookbook Module 8 Chapter 3",
+  "k5oYoGLxmmg": "Kowa 16-H (vs 8-Z & B&H) - 2x Anamorphic Lenses Review",
+  "l8_I5m4EX7Q": "SATEC Dyaliscope Champion - Vintage 2x Anamorphic Lens Review",
+  "m0Vq1BAAMCQ": "Vazen 28mm T2.2 - 1.8X Anamorphic Lens for MFT Review",
+  "n_txth5OIS4": "Review of the Budget Focuser for Anamorphic Lenses",
+  "qGyae3KADLo": "What's a HYBRID Anamorphic Lens?? - Vantage MiniHawks",
+  "rE1Apilw8V8": "Anamorfake the Rokinon 35mm T1.5 Cine - Anamorphic Lens Look!",
+  "rKsG5WCGnu4": "Helios 44 Lens Mod - Anamorfake! Anamorphic Lens Look",
+  "rVpxZmIFxn0": "Vintage Anamorphic Look by modifying Contax Zeiss Lenses! Anamorfake Tutorial Series",
+  "r_sjOZE6euk": "DogSchidt Optiks: Optical Attachments - Anamorfake! Anamorphic Lens Look",
+  "sDj5mLBQwpo": "Anamorfake the Pentacon 29mm! Anamorphic Lens Look",
+  "t1hnxyjNSd8": "Vistascope / Delrama 8mm - 1.5x Prism Anamorphic Lens Review",
+  "tlM2qz1ZwTs": "Sirui 75mm f/1.8 1.33X Anamorphic Lens: Last of the Set!",
+  "vteKAnW6E5c": "HELD - Single Focus Solutions for Anamorphic Lenses Shootout",
+  "w1bTPso-C3s": "Make Any Lens \"Anamorphic\": Modifications and Oval Inserts",
+  "wN5svMUKBek": "Why Anamorfake It? A Cheap Option for the Anamorphic Look",
+  "wfXeCVdxK9k": "DogSchidt Optiks: TRUMP 58 - Anamorfake! Anamorphic Lens Look",
+  "xDigs3VCuIc": "Boost the Sirui 24mm Anamorphic Lens - Get Closer! Wider! More Ovals!",
+  "xet_d_MQIQo": "LOMO Foton-A 37-140mm T4.4 2x Anamorphic Lens Review",
+  "zoISqwQhpsA": "Rapido Front Metal Jacket - Anamorphic Lens Housing"
+ }
+}

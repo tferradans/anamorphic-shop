@@ -4,3 +4,7 @@ youtube/
 descriptions.json
 client_secret*.json
 token*.json
+__pycache__/
+
+# Held back until the layout is approved. Remove this line to publish the books.
+files/books/
