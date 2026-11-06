@@ -42,7 +42,7 @@
    ],
    "bonus": [
     {
-     "url": null,
+     "url": "https://github.com/tferradans/anamorphic-shop/releases/download/bonus-v1/AnamorphicOnABudget_Bonus.zip",
      "size": 1481443964
     }
    ],
@@ -94,8 +94,12 @@
    ],
    "bonus": [
     {
-     "url": null,
-     "size": 2608185070
+     "url": "https://github.com/tferradans/anamorphic-shop/releases/download/bonus-v1/AnamorfakeIt_Bonus_Part1.zip",
+     "size": 1388472898
+    },
+    {
+     "url": "https://github.com/tferradans/anamorphic-shop/releases/download/bonus-v1/AnamorfakeIt_Bonus_Part2.zip",
+     "size": 1315677408
     }
    ],
    "videos": [

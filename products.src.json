@@ -15,7 +15,7 @@
       "pdfSource": "TitoFerradans_AnamorphicOnABudget_v02.pdf",
       "tagline": "Start shooting anamorphic without breaking the bank!",
       "description": ["The improved version of the Anamorphic on a Budget guide I have at my blog!", "When I wrote this guide as my graduation project in 2013, I didn't expect translating it to English. Five years after the unexpected translation and a lot of research later, I decided to revisit my original work.", "This revised edition features updated key concepts, higher resolution images and an expanded section on post-production aimed not only at MagicLantern users - plus the minor bug fixes of grammar and vocabulary!"],
-      "bonusSource": "Bonus Materials - Guides/On a Budget/BonusMaterial.zip",
+      "bonusFiles": ["AnamorphicOnABudget_Bonus.zip"],
       "driveIds": ["16lQpOsMC_vDpmO15JLNHI54fUJJuOk0x"]
     },
     {
@@ -26,7 +26,7 @@
       "pdfSource": "TitoFerradans_AnamorfakeIt_v02.pdf",
       "tagline": "Achieve the anamorphic lens look on the cheap!",
       "description": ["From the creator of Anamorphic on a Budget comes a new guide. One that doesn't involve anamorphic at all!", "The goal of Anamorfake It Until You Make It is to create the anamorphic look minus the nuisances and expenses of anamorphic adapters (and, oh boy, these are expensive right now). This guide is focused on shooting spherical, keeping it cheap and delivering a look that not even pros can tell you're faking.", "This is a guide with plenty of techniques using gear and tools you are likely to own - or that costs next to nothing!"],
-      "bonusSource": "Bonus Materials - Guides/Anamorfake It/BonusMaterial.zip",
+      "bonusFiles": ["AnamorfakeIt_Bonus_Part1.zip", "AnamorfakeIt_Bonus_Part2.zip"],
       "driveIds": ["12D9TCtc6aP0nDttWNBuh-mtQEtK-rDNs"]
     },
     {

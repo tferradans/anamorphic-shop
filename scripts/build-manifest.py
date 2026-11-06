@@ -22,6 +22,7 @@ from render_thumbs import build_visuals, is_junk
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 COVER_WIDTH = 900
+BONUS_RELEASE = "https://github.com/tferradans/anamorphic-shop/releases/download/bonus-v1/"
 SCANNED_FOLDERS = ["3D Prints and Parts", "3D Prints and Parts/Aperture Discs", "Plugins and Presets"]
 
 
@@ -208,10 +209,11 @@ def main(project):
         make_cover(pdf, cover)
         with fitz.open(pdf) as doc:
             pages = len(doc)
-        bonus = []
-        if book.get("bonusSource"):
-            # Hosting is undecided, so the url stays empty and the page disables the button.
-            bonus.append({"url": None, "size": os.path.getsize(os.path.join(drive, book["bonusSource"]))})
+        # Too big for the repo, so these live on a GitHub Release. See scripts/split_bonus.py.
+        bonus = [
+            {"url": BONUS_RELEASE + name, "size": os.path.getsize(os.path.join(project, "Generated", "bonus", name))}
+            for name in book.get("bonusFiles", [])
+        ]
         linked = unique(by_book.get(book["id"], []))
         referenced.update(linked)
         books.append({
