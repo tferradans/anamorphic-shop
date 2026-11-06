@@ -41,10 +41,6 @@
     return Math.max(1, Math.round(bytes / 1e3)) + ' KB';
   }
 
-  function bonusSize(book) {
-    return book.bonus.reduce(function (sum, b) { return sum + b.size; }, 0);
-  }
-
   function artSvg(it) {
     return '<svg aria-hidden="true" viewBox="0 0 120 120" stroke="#C9CDD2" stroke-width="1.25" fill="none" stroke-linecap="round" stroke-linejoin="round">' + (ART[it.art] || ART.part) + '</svg>';
   }
@@ -82,14 +78,11 @@
     var b = booksById[id];
     if (!b) return;
     state.book = id;
-    var bonus = '';
-    if (b.bonus.length) {
-      var url = b.bonus[0].url;
-      var label = '<span class="bonus-label"><span>Bonus Material</span><span class="bonus-sep"> · </span><span>' + fmtSize(bonusSize(b)) + '</span></span>';
-      bonus = url
-        ? '<a class="btn btn-line btn-bonus" href="' + esc(url) + '">' + label + '</a>'
-        : '<a class="btn btn-line btn-bonus" aria-disabled="true" title="Hosting still to be decided">' + label + '</a>';
-    }
+    // One button per file: browsers often block a single click that starts two downloads.
+    var bonus = b.bonus.map(function (file, i) {
+      var name = b.bonus.length > 1 ? 'Bonus Part ' + (i + 1) : 'Bonus Material';
+      return '<a class="btn btn-line btn-bonus" href="' + esc(file.url) + '"><span class="bonus-label"><span>' + name + '</span><span class="bonus-sep"> · </span><span>' + fmtSize(file.size) + '</span></span></a>';
+    }).join('');
     var meta = 'PDF · ' + fmtSize(b.pdfSize) + ' · ' + b.displayPages + ' pages';
     var description = b.description.map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('');
     openModal(

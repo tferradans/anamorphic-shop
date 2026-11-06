@@ -303,6 +303,8 @@ a:hover { color: #BFDCFF; }
 .book-card-actions { margin-top: auto; display: flex; flex-direction: column; gap: 8px; }
 .book-card-row { display: flex; flex-wrap: wrap; gap: 8px; }
 .book-card-row .btn { flex: 1 1 140px; }
+/* With a two-part bonus, the parts sit side by side under the PDF button. */
+.book-card-row .btn:first-child:nth-last-child(3) { flex-basis: 100%; }
 /* On one line when it fits. Otherwise the label sits over the size, with no separator. */
 .btn-bonus { container-type: inline-size; }
 .bonus-label { display: flex; justify-content: center; white-space: pre; line-height: 1.25; }
