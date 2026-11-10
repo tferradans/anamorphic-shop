@@ -209,6 +209,9 @@ def main(project):
                 if alias["part"] not in names or alias["video"] not in linked:
                     raise SystemExit(f"{item['id']}: alias {old_id} names a part or video it doesn't have")
             items[-1]["aliases"] = item["aliases"]
+        # Outside links shown on the card, like the adapter a part fits.
+        if item.get("links"):
+            items[-1]["links"] = item["links"]
         # Part names are searchable, so a lens inside a set finds the set.
         if len(models) > 1:
             items[-1]["parts"] = [m["name"] for m in models]

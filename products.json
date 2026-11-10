@@ -1383,6 +1383,111 @@
    "videos": []
   },
   {
+   "id": "line-flare-ring",
+   "name": "77mm Line Flare Ring",
+   "category": "prints",
+   "art": "part",
+   "format": "STL",
+   "size": 461684,
+   "contents": "1 file",
+   "description": "Holds a fishing line straight across the front of the lens, for anamorphic-style streak flares. It goes inside a 77mm filter frame and rotates, so you can align the flare. Thinner line flares better (0.2mm works well), and a marker tints the flare.",
+   "file": "files/line-flare-ring.stl",
+   "downloadName": "77_LineFlare.stl",
+   "thumb": "img/items/line-flare-ring.png",
+   "models": [
+    {
+     "name": "77 Line Flare",
+     "file": "models/line-flare-ring/1.stl"
+    }
+   ],
+   "tags": [
+    "flare",
+    "streak",
+    "line",
+    "fishing line",
+    "filter",
+    "77mm",
+    "anamorfake"
+   ],
+   "videos": [
+    "DUwvUGTzNI0"
+   ]
+  },
+  {
+   "id": "cokin-filter-adapter",
+   "name": "Cokin Filter Adapter",
+   "category": "prints",
+   "art": "part",
+   "format": "ZIP",
+   "size": 38614,
+   "contents": "2 files: STL",
+   "description": "A frame and lock ring for Cokin filters, which are unthreaded and oddly shaped, so you can use them on regular lenses. The Cokin 058 Star 2 is a two-point star, which makes clean, neutral streak flares.",
+   "file": "files/cokin-filter-adapter.zip",
+   "downloadName": "Cokin Filter Adapter.zip",
+   "thumb": "img/items/cokin-filter-adapter.png",
+   "models": [
+    {
+     "name": "Cokin Frame part 1",
+     "file": "models/cokin-filter-adapter/1.stl"
+    },
+    {
+     "name": "Cokin Lock Ring part 2",
+     "file": "models/cokin-filter-adapter/2.stl"
+    }
+   ],
+   "tags": [
+    "cokin",
+    "filter",
+    "star",
+    "streak",
+    "flare",
+    "adapter",
+    "anamorfake"
+   ],
+   "videos": [],
+   "parts": [
+    "Cokin Frame part 1",
+    "Cokin Lock Ring part 2"
+   ]
+  },
+  {
+   "id": "ef-e-flare-adapter",
+   "name": "EF to E Flare Adapter",
+   "category": "prints",
+   "art": "part",
+   "format": "STL",
+   "size": 704984,
+   "contents": "1 file",
+   "description": "Goes inside a cheap EF to E mount adapter (one without electronics) and holds five lines across the sensor, for streak flares built into the adapter. Set it up once, and it works with every lens you mount.",
+   "file": "files/ef-e-flare-adapter.stl",
+   "downloadName": "EFtoE_FlareAdapter.stl",
+   "thumb": "img/items/ef-e-flare-adapter.png",
+   "models": [
+    {
+     "name": "E Fto E Flare Adapter",
+     "file": "models/ef-e-flare-adapter/1.stl"
+    }
+   ],
+   "tags": [
+    "flare",
+    "streak",
+    "line",
+    "adapter",
+    "ef",
+    "e-mount",
+    "sony",
+    "canon",
+    "anamorfake"
+   ],
+   "videos": [],
+   "links": [
+    {
+     "label": "The EF to E adapter it fits (eBay)",
+     "url": "https://ebay.to/2UYaBfn"
+    }
+   ]
+  },
+  {
    "id": "aperture-disc-helios-44",
    "name": "Helios 44-2 58mm f/2 Oval Inserts",
    "category": "aperture",
@@ -1460,12 +1565,12 @@
    "name": "Pentacon 29mm f/2.8 Oval Inserts",
    "category": "aperture",
    "art": "aperture",
-   "format": "ZIP",
-   "size": 426247,
-   "contents": "PDF + DXF",
-   "description": "Oval aperture inserts for the Pentacon 29mm f/2.8. Ready for laser cutting out of 0.5mm acrylic. Paint them black with a permanent marker! Aperture values range from f/5.6 to f/16.",
-   "file": "files/aperture-disc-p29.zip",
-   "downloadName": "aperture-disc-p29.zip",
+   "format": "PDF",
+   "size": 644815,
+   "contents": "1 file",
+   "description": "Oval aperture inserts for the Pentacon 29mm f/2.8. Ready for laser cutting out of 0.5mm acrylic. Paint them black with a permanent marker! Sized for 1.33x, 1.5x and 2x stretch: one or two stops down from wide open for 1.33x and 1.5x, two or three for 2x.",
+   "file": "files/aperture-disc-p29.pdf",
+   "downloadName": "Pentacon29_Ovals.pdf",
    "thumb": "img/items/aperture-disc-p29.png",
    "models": [],
    "tags": [
@@ -1508,9 +1613,9 @@
    "category": "aperture",
    "art": "aperture",
    "format": "PDF",
-   "size": 333767,
+   "size": 644673,
    "contents": "1 file",
-   "description": "Oval aperture inserts for the Canon 50mm f/1.4 EF. Ready for laser cutting out of 0.5mm acrylic. Paint them black with a permanent marker! Aperture values range from f/2.8 to f/8.",
+   "description": "Oval aperture inserts for the Canon 50mm f/1.4 EF. Ready for laser cutting out of 0.5mm acrylic. Paint them black with a permanent marker! Sized for 1.33x, 1.5x and 2x stretch: one or two stops down from wide open for 1.33x and 1.5x, two or three for 2x.",
    "file": "files/aperture-disc-50ef.pdf",
    "downloadName": "50EF_Ovals.pdf",
    "thumb": "img/items/aperture-disc-50ef.png",
@@ -1553,15 +1658,15 @@
   },
   {
    "id": "aperture-disc-rokinon",
-   "name": "Rokinon 24, 35, 50 and 85mm Oval Inserts",
+   "name": "Rokinon / Samyang Oval Inserts",
    "category": "aperture",
    "art": "aperture",
-   "format": "AI",
-   "size": 1651750,
+   "format": "PDF",
+   "size": 679138,
    "contents": "1 file",
-   "description": "Oval aperture inserts for the Rokinon 24, 35, 50 and 85mm, sized for 1.33x, 1.5x and 2x anamorphics. Ready for laser cutting out of 0.5mm acrylic. Paint them black with a permanent marker! Aperture value: f/4.",
-   "file": "files/aperture-disc-rokinon.ai",
-   "downloadName": "RokinonFullList.ai",
+   "description": "Oval aperture inserts for the Rokinon / Samyang 14mm f/3.1, 24, 35, 50 and 85mm f/1.5, and 135mm f/2.2. Ready for laser cutting out of 0.5mm acrylic. Paint them black with a permanent marker! Sized for 1.33x, 1.5x and 2x stretch: one or two stops down from wide open for 1.33x and 1.5x, two or three for 2x.",
+   "file": "files/aperture-disc-rokinon.pdf",
+   "downloadName": "RokinonSamyang_Ovals.pdf",
    "thumb": "img/items/aperture-disc-rokinon.png",
    "models": [],
    "tags": [
@@ -1624,16 +1729,70 @@
    "videos": []
   },
   {
+   "id": "aperture-disc-contax-zeiss",
+   "name": "Contax Zeiss Oval Inserts",
+   "category": "aperture",
+   "art": "aperture",
+   "format": "PDF",
+   "size": 667643,
+   "contents": "1 file",
+   "description": "Oval aperture inserts for the Contax Zeiss 28mm f/2.8, 35mm f/2.8, 50mm f/1.7, 85mm f/2.8 and 135mm f/2.8. Ready for laser cutting out of 0.5mm acrylic. Paint them black with a permanent marker! Sized for 1.33x, 1.5x and 2x stretch: one or two stops down from wide open for 1.33x and 1.5x, two or three for 2x.",
+   "file": "files/aperture-disc-contax-zeiss.pdf",
+   "downloadName": "ContaxZeiss_Ovals.pdf",
+   "thumb": "img/items/aperture-disc-contax-zeiss.png",
+   "models": [],
+   "tags": [
+    "aperture",
+    "oval",
+    "bokeh",
+    "disc",
+    "insert",
+    "contax",
+    "zeiss",
+    "cy"
+   ],
+   "videos": []
+  },
+  {
+   "id": "aperture-disc-ussr",
+   "name": "USSR Lens Oval Inserts",
+   "category": "aperture",
+   "art": "aperture",
+   "format": "PDF",
+   "size": 670788,
+   "contents": "1 file",
+   "description": "Oval aperture inserts for six Soviet lenses: Mir 20M 20mm f/3.5, Mir 10A 28mm f/3.5, Mir 1 37mm f/2.8, Helios 44 58mm f/2, Jupiter 9 85mm f/2 and Tair 11A 135mm f/2.8. Ready for laser cutting out of 0.5mm acrylic. Paint them black with a permanent marker! Sized for 1.33x, 1.5x and 2x stretch: one or two stops down from wide open for 1.33x and 1.5x, two or three for 2x.",
+   "file": "files/aperture-disc-ussr.pdf",
+   "downloadName": "USSR_Ovals.pdf",
+   "thumb": "img/items/aperture-disc-ussr.png",
+   "models": [],
+   "tags": [
+    "aperture",
+    "oval",
+    "bokeh",
+    "disc",
+    "insert",
+    "ussr",
+    "soviet",
+    "helios",
+    "jupiter",
+    "j9",
+    "mir",
+    "tair"
+   ],
+   "videos": []
+  },
+  {
    "id": "anadistort",
    "name": "Anamorphic Distort",
    "category": "presets",
    "art": "preset",
-   "format": "FFX",
-   "size": 31418,
-   "contents": "After Effects preset",
+   "format": "ZIP",
+   "size": 4572,
+   "contents": "After Effects preset + readme",
    "description": "After Effects preset to adjust anamorphic distortion.",
-   "file": "files/anadistort.ffx",
-   "downloadName": "AnaDistort.ffx",
+   "file": "files/anadistort.zip",
+   "downloadName": "AnaDistort.zip",
    "thumb": "img/logos/ffx-after-effects.png",
    "models": [],
    "tags": [
@@ -1737,8 +1896,8 @@
    "category": "presets",
    "art": "preset",
    "format": "ZIP",
-   "size": 4954,
-   "contents": "9 files: BMP",
+   "size": 5667,
+   "contents": "10 files: BMP, TXT",
    "description": "Anamorphic cropmarks for Canon cameras running Magic Lantern.",
    "file": "files/ml-cropmarks.zip",
    "downloadName": "anamorphic-cropmarks_ML.zip",
@@ -1752,6 +1911,57 @@
    "videos": [
     "h5vRS5YhZdc"
    ]
+  },
+  {
+   "id": "automask",
+   "name": "autoMask",
+   "category": "presets",
+   "art": "preset",
+   "format": "ZIP",
+   "size": 1609,
+   "contents": "After Effects script + readme",
+   "description": "After Effects script that adds two black solids to letterbox your composition to any aspect ratio. 2.4:1 by default, set by a slider, and they follow the comp if you resize it.",
+   "file": "files/automask.zip",
+   "downloadName": "autoMask.zip",
+   "thumb": "img/logos/jsx-after-effects.png",
+   "models": [],
+   "tags": [
+    "after effects",
+    "script",
+    "jsx",
+    "mask",
+    "letterbox",
+    "aspect ratio",
+    "2.39",
+    "2.40"
+   ],
+   "videos": []
+  },
+  {
+   "id": "aspect-ratio-masks",
+   "name": "Aspect Ratio Masks",
+   "category": "presets",
+   "art": "preset",
+   "format": "ZIP",
+   "size": 8029,
+   "contents": "6 files: PNG",
+   "description": "Letterbox overlays as transparent PNGs, at 2.35:1 and 2.40:1, for 1080p, 4K and 8K frames. Drop one over your footage in any editor.",
+   "file": "files/aspect-ratio-masks.zip",
+   "downloadName": "Aspect Ratio Masks.zip",
+   "thumb": "img/logos/aspect-ratio-masks.png",
+   "models": [],
+   "tags": [
+    "mask",
+    "letterbox",
+    "overlay",
+    "aspect ratio",
+    "2.35",
+    "2.40",
+    "png",
+    "4k",
+    "8k"
+   ],
+   "videos": []
   },
   {
    "id": "to-logc3",
@@ -1802,6 +2012,7 @@
   "BUA-sPlSaxI": "Fix Anamorphic Skew and Adjust Distortion - Anamorphic Cookbook - Module 8 Chapter 2",
   "BWV2eLcc44w": "Opening the Door - A Short Film Faking The Anamorphic Look",
   "D57wlOEVeGc": "Anamorfake Mir 20M 20mm f/3.5 - Anamorphic Lens Look",
+  "DUwvUGTzNI0": "How to Make Anamorphic Lens Flares - Streak Filter DIY - Anamorfake It!",
   "Deg9557WjAY": "DIY 77mm +0.3 Achromatic Diopter For $20 - Anamorphic Lens Shooting!",
   "Dl2GSC0sW1s": "Bolex Moller 16/32/1.5x vs Iscorama 36 - Anamorphic Lens Comparison",
   "E2HuZi5bb_o": "Iscomorphot Inflight 16/1.75x Anamorphic Lens Review",
