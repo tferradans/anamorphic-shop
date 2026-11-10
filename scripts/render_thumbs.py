@@ -64,6 +64,22 @@ def parse_stl(data):
     return values[: len(values) // 3 * 3].reshape(-1, 3, 3)
 
 
+def turn(triangles, degrees):
+    """Rotate for display only, e.g. {"x": 90} for a part exported Y-up. Applied in x, y, z order.
+
+    The viewer keeps Z up and can't tip a model past overhead, so a part saved on its side
+    or upside down has to be turned here. The download keeps the original orientation.
+    """
+    for axis in ("x", "y", "z"):
+        if not degrees.get(axis):
+            continue
+        a = np.radians(degrees[axis])
+        c, s = np.cos(a), np.sin(a)
+        matrix = {"x": [[1, 0, 0], [0, c, -s], [0, s, c]], "y": [[c, 0, s], [0, 1, 0], [-s, 0, c]], "z": [[c, -s, 0], [s, c, 0], [0, 0, 1]]}[axis]
+        triangles = triangles @ np.array(matrix).T
+    return triangles
+
+
 def write_binary_stl(triangles, path):
     tris = triangles.astype("<f4")
     edge1, edge2 = tris[:, 1] - tris[:, 0], tris[:, 2] - tris[:, 0]
@@ -235,6 +251,16 @@ def render_document(name, data, path, cap_colors=None):
     if extension in (".pdf", ".ai", ".svg"):
         with fitz.open(stream=data, filetype="svg" if extension == ".svg" else "pdf") as doc:
             page = doc[0]
+            if cap_colors is not None and extension != ".svg":
+                # Cap art can run past the artboard (the LOMO Van Diemen caps do), and
+                # the tile needs the whole circle, so widen the page to the drawing.
+                drawn = [d["rect"] for d in page.get_drawings()]
+                if drawn:
+                    art = fitz.Rect(drawn[0])
+                    for rect in drawn[1:]:
+                        art |= rect
+                    if not page.rect.contains(art):
+                        page.set_mediabox(art | page.rect)
             zoom = SIZE * 2 / max(page.rect.width, page.rect.height)
             pix = page.get_pixmap(matrix=fitz.Matrix(zoom, zoom), alpha=extension == ".svg")
             image = Image.open(io.BytesIO(pix.tobytes("png")))
@@ -277,7 +303,7 @@ def build_visuals(item, drive, thumbs_dir, models_dir, part_name):
         os.makedirs(folder, exist_ok=True)
         meshes = []
         for index, (name, data) in enumerate(stls):
-            triangles = parse_stl(data)
+            triangles = turn(parse_stl(data), item.get("modelRotate", {}))
             meshes.append(triangles)
             path = os.path.join(folder, f"{index + 1}.stl")
             write_binary_stl(triangles, path)
