@@ -336,7 +336,8 @@ a:hover { color: #BFDCFF; }
 .viewer-status { min-height: 18px; padding: 0 16px 8px; text-align: center; font-family: var(--mono); font-size: 11px; color: var(--muted); }
 .viewer-loading, .viewer.is-loading .viewer-hint, .viewer.is-failed .viewer-status { display: none; }
 .viewer.is-loading .viewer-loading { display: inline; }
-.viewer-parts { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; padding: 0 16px 16px; }
+/* Big sets (the Contax gears have 29 parts) scroll here, so the model keeps its space. */
+.viewer-parts { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; padding: 0 16px 16px; max-height: 148px; overflow-y: auto; flex: none; }
 
 .icon-btn {
   appearance: none;

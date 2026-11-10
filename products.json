@@ -168,148 +168,459 @@
  ],
  "items": [
   {
-   "id": "helios-44-2-gear",
-   "name": "Helios 44-2 Focus Gear",
+   "id": "ussr-lens-gears",
+   "name": "USSR Lens Gears",
    "category": "prints",
    "art": "gear",
-   "format": "STL",
-   "size": 1339666,
-   "contents": "1 file",
-   "description": "Printable focus gear for the Helios 44-2.",
-   "file": "files/helios-44-2-gear.stl",
-   "downloadName": "Helios 44-2_v6.stl",
-   "thumb": "img/items/helios-44-2-gear.png",
+   "format": "ZIP",
+   "size": 1864726,
+   "contents": "17 files: JPG, STL, TXT",
+   "description": "Printable focus gears for Soviet lenses: Helios 40, Helios 44-2, Jupiter 9, LOMO Foton-A 37-140 (focus and zoom), Mir 1, Mir 1B, Mir 10A, Mir 20M, Mir 24N and Tair 11A. Jupiter 9 V1 fits older lenses with finger indents on the focus ring, and V2 fits newer ones with a round ring. Where a lens has two gears, the file name gives the bore size.",
+   "file": "files/ussr-lens-gears.zip",
+   "downloadName": "USSR Lens Gears.zip",
+   "thumb": "img/items/ussr-lens-gears.png",
    "models": [
     {
-     "name": "Helios 44-2 v 6",
-     "file": "models/helios-44-2-gear/1.stl"
+     "name": "Helios 40",
+     "file": "models/ussr-lens-gears/1.stl"
+    },
+    {
+     "name": "Helios 44-2",
+     "file": "models/ussr-lens-gears/2.stl"
+    },
+    {
+     "name": "Jupiter 9 V1",
+     "file": "models/ussr-lens-gears/3.stl"
+    },
+    {
+     "name": "Jupiter 9 V2",
+     "file": "models/ussr-lens-gears/4.stl"
+    },
+    {
+     "name": "LOMO Foton-A 37-140 Focus",
+     "file": "models/ussr-lens-gears/5.stl"
+    },
+    {
+     "name": "LOMO Foton-A 37-140 Zoom",
+     "file": "models/ussr-lens-gears/6.stl"
+    },
+    {
+     "name": "Mir 1 (60.3mm bore)",
+     "file": "models/ussr-lens-gears/7.stl"
+    },
+    {
+     "name": "Mir 1 Silver (59.2mm bore)",
+     "file": "models/ussr-lens-gears/8.stl"
+    },
+    {
+     "name": "Mir 10A",
+     "file": "models/ussr-lens-gears/9.stl"
+    },
+    {
+     "name": "Mir 1B",
+     "file": "models/ussr-lens-gears/10.stl"
+    },
+    {
+     "name": "Mir 20M (78.5mm bore)",
+     "file": "models/ussr-lens-gears/11.stl"
+    },
+    {
+     "name": "Mir 20M (92.2mm bore)",
+     "file": "models/ussr-lens-gears/12.stl"
+    },
+    {
+     "name": "Mir 24N",
+     "file": "models/ussr-lens-gears/13.stl"
+    },
+    {
+     "name": "Tair 11A",
+     "file": "models/ussr-lens-gears/14.stl"
     }
    ],
    "tags": [
     "gear",
     "focus",
+    "zoom",
+    "soviet",
+    "ussr",
     "helios",
-    "soviet",
-    "ussr"
-   ],
-   "videos": [
-    "a7El9GzKk24"
-   ]
-  },
-  {
-   "id": "mir-1b-gear",
-   "name": "Mir 1B Focus Gear",
-   "category": "prints",
-   "art": "gear",
-   "format": "STL",
-   "size": 1354432,
-   "contents": "1 file",
-   "description": "Printable focus gear for the Mir 1B.",
-   "file": "files/mir-1b-gear.stl",
-   "downloadName": "Mir 1B_v3.stl",
-   "thumb": "img/items/mir-1b-gear.png",
-   "models": [
-    {
-     "name": "Mir 1B v 3",
-     "file": "models/mir-1b-gear/1.stl"
-    }
-   ],
-   "tags": [
-    "gear",
-    "focus",
+    "jupiter",
+    "j9",
     "mir",
-    "soviet",
-    "ussr"
-   ],
-   "videos": [
-    "E5LtVEt1EDw"
-   ]
-  },
-  {
-   "id": "mir-10a-gear",
-   "name": "Mir 10A Focus Gear",
-   "category": "prints",
-   "art": "gear",
-   "format": "STL",
-   "size": 1371183,
-   "contents": "1 file",
-   "description": "Printable focus gear for the Mir 10A.",
-   "file": "files/mir-10a-gear.stl",
-   "downloadName": "Mir10A_black.stl",
-   "thumb": "img/items/mir-10a-gear.png",
-   "models": [
-    {
-     "name": "Mir 10A black",
-     "file": "models/mir-10a-gear/1.stl"
-    }
-   ],
-   "tags": [
-    "gear",
-    "focus",
-    "mir",
-    "soviet",
-    "ussr"
-   ],
-   "videos": [
-    "dUwJ_u-0xhI"
-   ]
-  },
-  {
-   "id": "mir-20m-gear",
-   "name": "Mir 20M Focus Gear",
-   "category": "prints",
-   "art": "gear",
-   "format": "STL",
-   "size": 1618651,
-   "contents": "1 file",
-   "description": "Printable focus gear for the Mir 20M.",
-   "file": "files/mir-20m-gear.stl",
-   "downloadName": "Mir20M_v1.stl",
-   "thumb": "img/items/mir-20m-gear.png",
-   "models": [
-    {
-     "name": "Mir 20M v 1",
-     "file": "models/mir-20m-gear/1.stl"
-    }
-   ],
-   "tags": [
-    "gear",
-    "focus",
-    "mir",
-    "soviet",
-    "ussr"
-   ],
-   "videos": [
-    "D57wlOEVeGc"
-   ]
-  },
-  {
-   "id": "tair-11a-gear",
-   "name": "Tair 11A Focus Gear",
-   "category": "prints",
-   "art": "gear",
-   "format": "STL",
-   "size": 1431735,
-   "contents": "1 file",
-   "description": "Printable focus gear for the Tair 11A.",
-   "file": "files/tair-11a-gear.stl",
-   "downloadName": "Tair11A_v2.stl",
-   "thumb": "img/items/tair-11a-gear.png",
-   "models": [
-    {
-     "name": "Tair 11A v 2",
-     "file": "models/tair-11a-gear/1.stl"
-    }
-   ],
-   "tags": [
-    "gear",
-    "focus",
     "tair",
-    "soviet",
-    "ussr"
+    "lomo",
+    "foton"
    ],
    "videos": [
-    "5j1XfkmxFS0"
+    "a7El9GzKk24",
+    "E5LtVEt1EDw",
+    "dUwJ_u-0xhI",
+    "D57wlOEVeGc",
+    "5j1XfkmxFS0",
+    "YXrYqPJVFos"
+   ],
+   "aliases": {
+    "helios-44-2-gear": {
+     "part": "Helios 44-2",
+     "video": "a7El9GzKk24"
+    },
+    "mir-1b-gear": {
+     "part": "Mir 1B",
+     "video": "E5LtVEt1EDw"
+    },
+    "mir-10a-gear": {
+     "part": "Mir 10A",
+     "video": "dUwJ_u-0xhI"
+    },
+    "mir-20m-gear": {
+     "part": "Mir 20M (78.5mm bore)",
+     "video": "D57wlOEVeGc"
+    },
+    "tair-11a-gear": {
+     "part": "Tair 11A",
+     "video": "5j1XfkmxFS0"
+    },
+    "jupiter-9-gears": {
+     "part": "Jupiter 9 V1",
+     "video": "YXrYqPJVFos"
+    }
+   },
+   "parts": [
+    "Helios 40",
+    "Helios 44-2",
+    "Jupiter 9 V1",
+    "Jupiter 9 V2",
+    "LOMO Foton-A 37-140 Focus",
+    "LOMO Foton-A 37-140 Zoom",
+    "Mir 1 (60.3mm bore)",
+    "Mir 1 Silver (59.2mm bore)",
+    "Mir 10A",
+    "Mir 1B",
+    "Mir 20M (78.5mm bore)",
+    "Mir 20M (92.2mm bore)",
+    "Mir 24N",
+    "Tair 11A"
+   ]
+  },
+  {
+   "id": "sirui-lens-gears",
+   "name": "Sirui 1.33X Lens Gears",
+   "category": "prints",
+   "art": "gear",
+   "format": "ZIP",
+   "size": 795468,
+   "contents": "6 files: STL",
+   "description": "Printable focus and iris gears for the Sirui 1.33X anamorphic lenses: 24mm f/2.8, 50mm f/1.8 and 75mm f/1.8.",
+   "file": "files/sirui-lens-gears.zip",
+   "downloadName": "Sirui 1.33X Lens Gears.zip",
+   "thumb": "img/items/sirui-lens-gears.png",
+   "models": [
+    {
+     "name": "Sirui 24 Focus",
+     "file": "models/sirui-lens-gears/1.stl"
+    },
+    {
+     "name": "Sirui 24 Iris",
+     "file": "models/sirui-lens-gears/2.stl"
+    },
+    {
+     "name": "Sirui 50 Focus",
+     "file": "models/sirui-lens-gears/3.stl"
+    },
+    {
+     "name": "Sirui 50 Iris",
+     "file": "models/sirui-lens-gears/4.stl"
+    },
+    {
+     "name": "Sirui 75 Focus",
+     "file": "models/sirui-lens-gears/5.stl"
+    },
+    {
+     "name": "Sirui 75 Iris",
+     "file": "models/sirui-lens-gears/6.stl"
+    }
+   ],
+   "tags": [
+    "sirui",
+    "gear",
+    "focus",
+    "iris",
+    "1.33x"
+   ],
+   "videos": [
+    "HjOqMn_AU9Y",
+    "xDigs3VCuIc"
+   ],
+   "aliases": {
+    "sirui-gears": {
+     "part": "Sirui 50 Focus",
+     "video": "HjOqMn_AU9Y"
+    },
+    "sirui-24-gears": {
+     "part": "Sirui 24 Focus",
+     "video": "xDigs3VCuIc"
+    }
+   },
+   "parts": [
+    "Sirui 24 Focus",
+    "Sirui 24 Iris",
+    "Sirui 50 Focus",
+    "Sirui 50 Iris",
+    "Sirui 75 Focus",
+    "Sirui 75 Iris"
+   ]
+  },
+  {
+   "id": "contax-zeiss-gears",
+   "name": "Contax Zeiss Lens Gears",
+   "category": "prints",
+   "art": "gear",
+   "format": "ZIP",
+   "size": 3901039,
+   "contents": "29 files: STL",
+   "description": "Printable focus and iris gears for Contax Zeiss lenses. Focus gears for 18 lenses from 15 to 135 mm, including the 28-70 and 80-200 zooms, plus the Zeiss ZE 18mm f/3.5. Iris gears for 10 lenses from 15 to 180 mm.",
+   "file": "files/contax-zeiss-gears.zip",
+   "downloadName": "Contax Zeiss Lens Gears.zip",
+   "thumb": "img/items/contax-zeiss-gears.png",
+   "models": [
+    {
+     "name": "Contax Zeiss 100mm f/3.5 Focus",
+     "file": "models/contax-zeiss-gears/1.stl"
+    },
+    {
+     "name": "Contax Zeiss 135mm f/2 Focus",
+     "file": "models/contax-zeiss-gears/2.stl"
+    },
+    {
+     "name": "Contax Zeiss 135mm f/2.8 Focus",
+     "file": "models/contax-zeiss-gears/3.stl"
+    },
+    {
+     "name": "Contax Zeiss 15mm f/3.5 Focus",
+     "file": "models/contax-zeiss-gears/4.stl"
+    },
+    {
+     "name": "Contax Zeiss 18mm f/4 Focus",
+     "file": "models/contax-zeiss-gears/5.stl"
+    },
+    {
+     "name": "Contax Zeiss 21mm f/2.8 Focus",
+     "file": "models/contax-zeiss-gears/6.stl"
+    },
+    {
+     "name": "Contax Zeiss 25mm f/2.8 Focus",
+     "file": "models/contax-zeiss-gears/7.stl"
+    },
+    {
+     "name": "Contax Zeiss 28-70mm f/3.5 Focus",
+     "file": "models/contax-zeiss-gears/8.stl"
+    },
+    {
+     "name": "Contax Zeiss 28mm f/2 Focus",
+     "file": "models/contax-zeiss-gears/9.stl"
+    },
+    {
+     "name": "Contax Zeiss 28mm f/2.8 Focus",
+     "file": "models/contax-zeiss-gears/10.stl"
+    },
+    {
+     "name": "Contax Zeiss 35mm f/1.4 Focus",
+     "file": "models/contax-zeiss-gears/11.stl"
+    },
+    {
+     "name": "Contax Zeiss 35mm f/2.8 Focus",
+     "file": "models/contax-zeiss-gears/12.stl"
+    },
+    {
+     "name": "Contax Zeiss 50mm f/1.4 Focus",
+     "file": "models/contax-zeiss-gears/13.stl"
+    },
+    {
+     "name": "Contax Zeiss 50mm f/1.7 Focus",
+     "file": "models/contax-zeiss-gears/14.stl"
+    },
+    {
+     "name": "Contax Zeiss 60mm f/2.8 Focus",
+     "file": "models/contax-zeiss-gears/15.stl"
+    },
+    {
+     "name": "Contax Zeiss 80-200mm f/4 Focus",
+     "file": "models/contax-zeiss-gears/16.stl"
+    },
+    {
+     "name": "Contax Zeiss 85mm f/1.4 Focus",
+     "file": "models/contax-zeiss-gears/17.stl"
+    },
+    {
+     "name": "Contax Zeiss 85mm f/2.8 Focus",
+     "file": "models/contax-zeiss-gears/18.stl"
+    },
+    {
+     "name": "Zeiss ZE 18mm f/3.5 Focus",
+     "file": "models/contax-zeiss-gears/19.stl"
+    },
+    {
+     "name": "Contax Zeiss 135mm f/2 Iris",
+     "file": "models/contax-zeiss-gears/20.stl"
+    },
+    {
+     "name": "Contax Zeiss 15mm f/3.5 Iris",
+     "file": "models/contax-zeiss-gears/21.stl"
+    },
+    {
+     "name": "Contax Zeiss 180mm f/2.8 Iris",
+     "file": "models/contax-zeiss-gears/22.stl"
+    },
+    {
+     "name": "Contax Zeiss 21mm f/2.8 Iris",
+     "file": "models/contax-zeiss-gears/23.stl"
+    },
+    {
+     "name": "Contax Zeiss 25mm f/2.8 Iris",
+     "file": "models/contax-zeiss-gears/24.stl"
+    },
+    {
+     "name": "Contax Zeiss 28mm f/2 Iris",
+     "file": "models/contax-zeiss-gears/25.stl"
+    },
+    {
+     "name": "Contax Zeiss 35mm f/1.4 Iris",
+     "file": "models/contax-zeiss-gears/26.stl"
+    },
+    {
+     "name": "Contax Zeiss 50mm f/1.4 Iris",
+     "file": "models/contax-zeiss-gears/27.stl"
+    },
+    {
+     "name": "Contax Zeiss 60mm f/2.8 Iris",
+     "file": "models/contax-zeiss-gears/28.stl"
+    },
+    {
+     "name": "Contax Zeiss 85mm f/1.4 Iris",
+     "file": "models/contax-zeiss-gears/29.stl"
+    }
+   ],
+   "tags": [
+    "contax",
+    "zeiss",
+    "cy",
+    "ze",
+    "gear",
+    "focus",
+    "iris"
+   ],
+   "videos": [],
+   "parts": [
+    "Contax Zeiss 100mm f/3.5 Focus",
+    "Contax Zeiss 135mm f/2 Focus",
+    "Contax Zeiss 135mm f/2.8 Focus",
+    "Contax Zeiss 15mm f/3.5 Focus",
+    "Contax Zeiss 18mm f/4 Focus",
+    "Contax Zeiss 21mm f/2.8 Focus",
+    "Contax Zeiss 25mm f/2.8 Focus",
+    "Contax Zeiss 28-70mm f/3.5 Focus",
+    "Contax Zeiss 28mm f/2 Focus",
+    "Contax Zeiss 28mm f/2.8 Focus",
+    "Contax Zeiss 35mm f/1.4 Focus",
+    "Contax Zeiss 35mm f/2.8 Focus",
+    "Contax Zeiss 50mm f/1.4 Focus",
+    "Contax Zeiss 50mm f/1.7 Focus",
+    "Contax Zeiss 60mm f/2.8 Focus",
+    "Contax Zeiss 80-200mm f/4 Focus",
+    "Contax Zeiss 85mm f/1.4 Focus",
+    "Contax Zeiss 85mm f/2.8 Focus",
+    "Zeiss ZE 18mm f/3.5 Focus",
+    "Contax Zeiss 135mm f/2 Iris",
+    "Contax Zeiss 15mm f/3.5 Iris",
+    "Contax Zeiss 180mm f/2.8 Iris",
+    "Contax Zeiss 21mm f/2.8 Iris",
+    "Contax Zeiss 25mm f/2.8 Iris",
+    "Contax Zeiss 28mm f/2 Iris",
+    "Contax Zeiss 35mm f/1.4 Iris",
+    "Contax Zeiss 50mm f/1.4 Iris",
+    "Contax Zeiss 60mm f/2.8 Iris",
+    "Contax Zeiss 85mm f/1.4 Iris"
+   ]
+  },
+  {
+   "id": "photo-lens-gears",
+   "name": "Photo Lens Gears",
+   "category": "prints",
+   "art": "gear",
+   "format": "ZIP",
+   "size": 1379722,
+   "contents": "10 files: STL",
+   "description": "Printable gears for photo lenses: Leica 21mm f/4 Super Angulon and 28, 35 and 90mm f/2.8 Elmarit, Canon 17-40mm, Canon 50mm f/0.95 Dream Lens, Sigma 18-35mm (focus and zoom), Tokina 11-20mm and Pentacon 29mm.",
+   "file": "files/photo-lens-gears.zip",
+   "downloadName": "Photo Lens Gears.zip",
+   "thumb": "img/items/photo-lens-gears.png",
+   "models": [
+    {
+     "name": "Canon 17-40mm",
+     "file": "models/photo-lens-gears/1.stl"
+    },
+    {
+     "name": "Canon 50mm f/0.95 Dream Lens",
+     "file": "models/photo-lens-gears/2.stl"
+    },
+    {
+     "name": "Leica 21mm f/4 Super Angulon",
+     "file": "models/photo-lens-gears/3.stl"
+    },
+    {
+     "name": "Leica 28mm f/2.8 Elmarit",
+     "file": "models/photo-lens-gears/4.stl"
+    },
+    {
+     "name": "Leica 35mm f/2.8 Elmarit",
+     "file": "models/photo-lens-gears/5.stl"
+    },
+    {
+     "name": "Leica 90mm f/2.8 Elmarit",
+     "file": "models/photo-lens-gears/6.stl"
+    },
+    {
+     "name": "Pentacon 29mm",
+     "file": "models/photo-lens-gears/7.stl"
+    },
+    {
+     "name": "Sigma 18-35mm Focus",
+     "file": "models/photo-lens-gears/8.stl"
+    },
+    {
+     "name": "Sigma 18-35mm Zoom",
+     "file": "models/photo-lens-gears/9.stl"
+    },
+    {
+     "name": "Tokina 11-20mm",
+     "file": "models/photo-lens-gears/10.stl"
+    }
+   ],
+   "tags": [
+    "gear",
+    "focus",
+    "zoom",
+    "leica",
+    "elmarit",
+    "super angulon",
+    "canon",
+    "dream lens",
+    "sigma",
+    "tokina",
+    "pentacon"
+   ],
+   "videos": [],
+   "parts": [
+    "Canon 17-40mm",
+    "Canon 50mm f/0.95 Dream Lens",
+    "Leica 21mm f/4 Super Angulon",
+    "Leica 28mm f/2.8 Elmarit",
+    "Leica 35mm f/2.8 Elmarit",
+    "Leica 90mm f/2.8 Elmarit",
+    "Pentacon 29mm",
+    "Sigma 18-35mm Focus",
+    "Sigma 18-35mm Zoom",
+    "Tokina 11-20mm"
    ]
   },
   {
@@ -369,6 +680,10 @@
    ],
    "videos": [
     "E2HuZi5bb_o"
+   ],
+   "parts": [
+    "Clamp Bottom 5",
+    "Clamp Top 5"
    ]
   },
   {
@@ -411,6 +726,11 @@
     "eMQRU_gIIIM",
     "k5oYoGLxmmg",
     "vteKAnW6E5c"
+   ],
+   "parts": [
+    "Clamp Bottom",
+    "Clamp Top",
+    "Elmo 2 Filler"
    ]
   },
   {
@@ -440,6 +760,10 @@
    ],
    "videos": [
     "FlkW0UeuzOo"
+   ],
+   "parts": [
+    "Kowa 16-D filler",
+    "Kowa 16-D front"
    ]
   },
   {
@@ -567,104 +891,14 @@
    ],
    "videos": [
     "2GFrSAQj658"
-   ]
-  },
-  {
-   "id": "jupiter-9-gears",
-   "name": "Jupiter 9 Focus Gears",
-   "category": "prints",
-   "art": "gear",
-   "format": "ZIP",
-   "size": 296402,
-   "contents": "5 files: JPG, STL, TXT",
-   "description": "Printable focus gears for the Jupiter 9, with lens photos. V1 fits older lenses with finger indents on the focus ring, and V2 fits newer ones with a round focus ring.",
-   "file": "files/jupiter-9-gears.zip",
-   "downloadName": "Jupiter9 FocusGears.zip",
-   "thumb": "img/items/jupiter-9-gears.png",
-   "models": [
-    {
-     "name": "J9 V1",
-     "file": "models/jupiter-9-gears/1.stl"
-    },
-    {
-     "name": "J9 V2",
-     "file": "models/jupiter-9-gears/2.stl"
-    }
    ],
-   "tags": [
-    "jupiter",
-    "j9",
-    "gear",
-    "focus",
-    "soviet",
-    "ussr"
-   ],
-   "videos": [
-    "YXrYqPJVFos"
-   ]
-  },
-  {
-   "id": "sirui-gears",
-   "name": "Sirui 50mm f/1.8 1.33X Gears",
-   "category": "prints",
-   "art": "gear",
-   "format": "ZIP",
-   "size": 261935,
-   "contents": "2 files: STL",
-   "description": "Printable focus and iris gears for the Sirui 50mm f/1.8 1.33X.",
-   "file": "files/sirui-gears.zip",
-   "downloadName": "Sirui_Gears_STL.zip",
-   "thumb": "img/items/sirui-gears.png",
-   "models": [
-    {
-     "name": "Sirui-Focus",
-     "file": "models/sirui-gears/1.stl"
-    },
-    {
-     "name": "Sirui-Iris",
-     "file": "models/sirui-gears/2.stl"
-    }
-   ],
-   "tags": [
-    "sirui",
-    "gear",
-    "focus",
-    "iris"
-   ],
-   "videos": [
-    "HjOqMn_AU9Y"
-   ]
-  },
-  {
-   "id": "sirui-24-gears",
-   "name": "Sirui 24mm f/2.8 1.33X Gears",
-   "category": "prints",
-   "art": "gear",
-   "format": "ZIP",
-   "size": 260906,
-   "contents": "2 files: STL",
-   "description": "Printable focus and iris gears for the Sirui 24mm f/2.8 1.33X.",
-   "file": "files/sirui-24-gears.zip",
-   "downloadName": "Sirui_24_Gears_STL.zip",
-   "thumb": "img/items/sirui-24-gears.png",
-   "models": [
-    {
-     "name": "Sirui 24 Focus",
-     "file": "models/sirui-24-gears/1.stl"
-    },
-    {
-     "name": "Sirui 24 Iris",
-     "file": "models/sirui-24-gears/2.stl"
-    }
-   ],
-   "tags": [
-    "sirui",
-    "gear",
-    "focus",
-    "iris"
-   ],
-   "videos": [
-    "xDigs3VCuIc"
+   "parts": [
+    "Cinelux Front",
+    "Isco Premiere Glove",
+    "Scheider Glove v 2",
+    "Ultra Star Front",
+    "Isco Red-glove A v 2",
+    "Isco Red-glove B"
    ]
   },
   {
@@ -734,6 +968,95 @@
    "videos": []
   },
   {
+   "id": "numbered-lens-cap-stickers",
+   "name": "Numbered Lens Cap Stickers",
+   "category": "design",
+   "art": "cap",
+   "format": "ZIP",
+   "size": 1038719,
+   "contents": "14 files: AI, JPG, PSD",
+   "description": "Round lens cap stickers with the focal length in big numbers, from 15 to 135 mm. Includes the Photoshop files, a version with lens info, and an 80 mm template for SIMMOD caps.",
+   "file": "files/numbered-lens-cap-stickers.zip",
+   "downloadName": "Numbered Lens Cap Stickers.zip",
+   "thumb": "img/items/numbered-lens-cap-stickers.png",
+   "models": [],
+   "tags": [
+    "cap",
+    "sticker",
+    "label",
+    "template",
+    "psd",
+    "simmod"
+   ],
+   "videos": []
+  },
+  {
+   "id": "lomo-van-diemen-caps",
+   "name": "LOMO Van Diemen Lens Caps",
+   "category": "design",
+   "art": "cap",
+   "format": "ZIP",
+   "size": 717354,
+   "contents": "8 files: AI, PDF, SVG",
+   "description": "Lens cap artwork for the LOMO 35, 50 and 75 mm anamorphics rehoused by Van Diemen, for 114 mm caps. Illustrator and SVG files, plus a print-ready PDF of the 75. The fonts aren't included: Fonts.txt names them.",
+   "file": "files/lomo-van-diemen-caps.zip",
+   "downloadName": "LOMO Van Diemen Lens Caps.zip",
+   "thumb": "img/items/lomo-van-diemen-caps.png",
+   "models": [],
+   "tags": [
+    "lomo",
+    "van diemen",
+    "cap",
+    "114mm",
+    "soviet",
+    "ussr"
+   ],
+   "videos": []
+  },
+  {
+   "id": "maxiscope-85mm-cap",
+   "name": "Maxiscope 85mm Lens Cap",
+   "category": "design",
+   "art": "cap",
+   "format": "ZIP",
+   "size": 6319849,
+   "contents": "3 files: PDF, PNG, PSD",
+   "description": "Color lens cap artwork for the Exo Optik Maxiscope 85mm, as a PNG, a layered Photoshop file and a print-ready PDF.",
+   "file": "files/maxiscope-85mm-cap.zip",
+   "downloadName": "Maxiscope 85mm Lens Cap.zip",
+   "thumb": "img/items/maxiscope-85mm-cap.png",
+   "models": [],
+   "tags": [
+    "maxiscope",
+    "exo optik",
+    "iscorama",
+    "cap",
+    "color"
+   ],
+   "videos": []
+  },
+  {
+   "id": "fun-lens-caps",
+   "name": "Donut and Tito Lens Caps",
+   "category": "design",
+   "art": "cap",
+   "format": "ZIP",
+   "size": 17090507,
+   "contents": "3 files: AI, PDF, PNG",
+   "description": "Two lens cap designs just for fun: a donut, and the Tito cap.",
+   "file": "files/fun-lens-caps.zip",
+   "downloadName": "Donut and Tito Lens Caps.zip",
+   "thumb": "img/items/fun-lens-caps.png",
+   "models": [],
+   "tags": [
+    "cap",
+    "donut",
+    "fun",
+    "color"
+   ],
+   "videos": []
+  },
+  {
    "id": "storyboard-template",
    "name": "Storyboard Template",
    "category": "design",
@@ -782,6 +1105,10 @@
    ],
    "videos": [
     "Deg9557WjAY"
+   ],
+   "parts": [
+    "Lowpower Diopter-Cap variant A no Frontthreads",
+    "Lowpower Diopter-Cap variant B Frontthreads"
    ]
   },
   {
@@ -817,6 +1144,11 @@
    ],
    "videos": [
     "n_txth5OIS4"
+   ],
+   "parts": [
+    "M65 to 77mm",
+    "Front Piece v 2",
+    "Rear Piece v 3"
    ]
   },
   {
@@ -946,6 +1278,130 @@
    "videos": [
     "Rj_CNXtfGM4"
    ]
+  },
+  {
+   "id": "114mm-clamp",
+   "name": "114mm Lens Clamp",
+   "category": "prints",
+   "art": "lens",
+   "format": "ZIP",
+   "size": 524808,
+   "contents": "3 files: STL",
+   "description": "Printable 114 mm clamp, with its thumbscrew and cap.",
+   "file": "files/114mm-clamp.zip",
+   "downloadName": "114mm Lens Clamp.zip",
+   "thumb": "img/items/114mm-clamp.png",
+   "models": [
+    {
+     "name": "Cap",
+     "file": "models/114mm-clamp/1.stl"
+    },
+    {
+     "name": "Clamp",
+     "file": "models/114mm-clamp/2.stl"
+    },
+    {
+     "name": "Thumbscrew",
+     "file": "models/114mm-clamp/3.stl"
+    }
+   ],
+   "tags": [
+    "clamp",
+    "114mm",
+    "thumbscrew"
+   ],
+   "videos": [],
+   "parts": [
+    "Cap",
+    "Clamp",
+    "Thumbscrew"
+   ]
+  },
+  {
+   "id": "foton-a-cap",
+   "name": "LOMO Foton-A Lens Cap",
+   "category": "prints",
+   "art": "part",
+   "format": "ZIP",
+   "size": 1989324,
+   "contents": "3 files: AI, STL, SVG",
+   "description": "3D-printable lens cap for the LOMO Foton-A 37-140mm, with the lens info engraved on top. Includes the artwork as AI and SVG.",
+   "file": "files/foton-a-cap.zip",
+   "downloadName": "LOMO Foton-A Lens Cap.zip",
+   "thumb": "img/items/foton-a-cap.png",
+   "models": [
+    {
+     "name": "LOMO Foton-A Lens Cap",
+     "file": "models/foton-a-cap/1.stl"
+    }
+   ],
+   "tags": [
+    "lomo",
+    "foton",
+    "foton-a",
+    "cap",
+    "soviet",
+    "ussr"
+   ],
+   "videos": []
+  },
+  {
+   "id": "lws-height-checker",
+   "name": "LWS Height Checker",
+   "category": "prints",
+   "art": "part",
+   "format": "STL",
+   "size": 319484,
+   "contents": "1 file",
+   "description": "Goes on 15mm LWS (lightweight) rails and checks whether the base follows the standard for lens height and centering.",
+   "file": "files/lws-height-checker.stl",
+   "downloadName": "LWS_height_checker_v3.stl",
+   "thumb": "img/items/lws-height-checker.png",
+   "models": [
+    {
+     "name": "LWS height checker v 3",
+     "file": "models/lws-height-checker/1.stl"
+    }
+   ],
+   "tags": [
+    "lws",
+    "15mm",
+    "rails",
+    "rods",
+    "height",
+    "baseplate",
+    "centering"
+   ],
+   "videos": []
+  },
+  {
+   "id": "quasar-to-spud",
+   "name": "Quasar T8 to C-Stand Mount",
+   "category": "prints",
+   "art": "part",
+   "format": "STL",
+   "size": 1430484,
+   "contents": "1 file",
+   "description": "Adapter for Quasar T8 tubes. It fits around the light and around a C-stand arm, so the tubes are easy to mount.",
+   "file": "files/quasar-to-spud.stl",
+   "downloadName": "QuasarToSpud.stl",
+   "thumb": "img/items/quasar-to-spud.png",
+   "models": [
+    {
+     "name": "Quasar To Spud",
+     "file": "models/quasar-to-spud/1.stl"
+    }
+   ],
+   "tags": [
+    "quasar",
+    "t8",
+    "tube",
+    "light",
+    "c-stand",
+    "spud",
+    "grip"
+   ],
+   "videos": []
   },
   {
    "id": "aperture-disc-helios-44",
@@ -1089,6 +1545,102 @@
     "canon",
     "ef",
     "50mm"
+   ],
+   "videos": []
+  },
+  {
+   "id": "aperture-disc-sirui",
+   "name": "Sirui 1.33X Oval Inserts",
+   "category": "aperture",
+   "art": "aperture",
+   "format": "ZIP",
+   "size": 1555704,
+   "contents": "7 files: AI",
+   "description": "Oval aperture inserts for the Sirui 1.33X anamorphic 24, 35, 50 and 75mm, plus Mk2 sheets for the 35 and 50. Ready for laser cutting out of 0.5mm acrylic. Paint them black with a permanent marker! Aperture value: f/3.5, or f/4.5 on the 24mm.",
+   "file": "files/aperture-disc-sirui.zip",
+   "downloadName": "Sirui 1.33X Oval Inserts.zip",
+   "thumb": "img/items/aperture-disc-sirui.png",
+   "models": [],
+   "tags": [
+    "aperture",
+    "oval",
+    "bokeh",
+    "disc",
+    "insert",
+    "sirui",
+    "1.33x"
+   ],
+   "videos": []
+  },
+  {
+   "id": "aperture-disc-rokinon",
+   "name": "Rokinon 24, 35, 50 and 85mm Oval Inserts",
+   "category": "aperture",
+   "art": "aperture",
+   "format": "AI",
+   "size": 1651750,
+   "contents": "1 file",
+   "description": "Oval aperture inserts for the Rokinon 24, 35, 50 and 85mm, sized for 1.33x, 1.5x and 2x anamorphics. Ready for laser cutting out of 0.5mm acrylic. Paint them black with a permanent marker! Aperture value: f/4.",
+   "file": "files/aperture-disc-rokinon.ai",
+   "downloadName": "RokinonFullList.ai",
+   "thumb": "img/items/aperture-disc-rokinon.png",
+   "models": [],
+   "tags": [
+    "aperture",
+    "oval",
+    "bokeh",
+    "disc",
+    "insert",
+    "rokinon",
+    "samyang"
+   ],
+   "videos": []
+  },
+  {
+   "id": "aperture-disc-tokina-28-70",
+   "name": "Tokina 28-70mm f/2.8 Oval Inserts",
+   "category": "aperture",
+   "art": "aperture",
+   "format": "AI",
+   "size": 1191542,
+   "contents": "1 file",
+   "description": "Oval aperture inserts for the Tokina 28-70mm f/2.8. Ready for laser cutting out of 0.5mm acrylic. Paint them black with a permanent marker! Aperture value: f/4.5.",
+   "file": "files/aperture-disc-tokina-28-70.ai",
+   "downloadName": "Tokina-2870-28.ai",
+   "thumb": "img/items/aperture-disc-tokina-28-70.png",
+   "models": [],
+   "tags": [
+    "aperture",
+    "oval",
+    "bokeh",
+    "disc",
+    "insert",
+    "tokina",
+    "28-70"
+   ],
+   "videos": []
+  },
+  {
+   "id": "aperture-disc-vivitar-24",
+   "name": "Vivitar 24mm Oval Inserts",
+   "category": "aperture",
+   "art": "aperture",
+   "format": "AI",
+   "size": 1202218,
+   "contents": "1 file",
+   "description": "Oval aperture inserts for the Vivitar 24mm. Ready for laser cutting out of 0.5mm acrylic. Paint them black with a permanent marker! Aperture value: f/4.5.",
+   "file": "files/aperture-disc-vivitar-24.ai",
+   "downloadName": "Vivitar-24mm.ai",
+   "thumb": "img/items/aperture-disc-vivitar-24.png",
+   "models": [],
+   "tags": [
+    "aperture",
+    "oval",
+    "bokeh",
+    "disc",
+    "insert",
+    "vivitar",
+    "24mm"
    ],
    "videos": []
   },
