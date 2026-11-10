@@ -127,7 +127,7 @@
       if (state.only && state.only.indexOf(it.id) === -1) return false;
       if (state.cat !== 'all' && it.category !== state.cat) return false;
       if (!q) return true;
-      var hay = [it.name, it.format, it.description, it.contents, it.downloadName, catLabels[it.category]].concat(it.tags).join(' ').toLowerCase();
+      var hay = [it.name, it.format, it.description, it.contents, it.downloadName, catLabels[it.category]].concat(it.tags, it.parts || []).join(' ').toLowerCase();
       return q.split(/\s+/).every(function (word) { return hay.indexOf(word) !== -1; });
     });
   }
@@ -156,11 +156,21 @@
   function openItem(id) {
     var it = itemsById[id];
     if (!it) return;
-    state.item = id;
+    // An old id from before products were merged still opens, and the URL shows the current one.
+    state.item = it.id;
+    // Coming from an old product's link or video, lead with that product's video and part.
+    var aliases = it.aliases || {};
+    var via = aliases[id] || null;
+    Object.keys(aliases).forEach(function (old) {
+      if (preferredVideo && aliases[old].video === preferredVideo) via = aliases[old];
+    });
+    var lead = preferredVideo || (via && via.video);
+    var startPart = 0;
+    it.models.forEach(function (m, i) { if (via && m.name === via.part) startPart = i; });
     var videos = it.videos.slice();
-    if (preferredVideo && videos.indexOf(preferredVideo) > 0) {
-      videos.splice(videos.indexOf(preferredVideo), 1);
-      videos.unshift(preferredVideo);
+    if (lead && videos.indexOf(lead) > 0) {
+      videos.splice(videos.indexOf(lead), 1);
+      videos.unshift(lead);
     }
     var visual = it.thumb
       ? '<img class="viewer-poster" src="' + esc(it.thumb) + '" alt="">'
@@ -170,7 +180,7 @@
       pane += '<div class="viewer-status" aria-hidden="true"><span class="viewer-hint">Drag to rotate · scroll to zoom</span><span class="viewer-loading">Loading 3D model…</span></div>';
       if (it.models.length > 1) {
         pane += '<div class="viewer-parts" role="group" aria-label="Choose a part">' + it.models.map(function (m, i) {
-          return '<button class="chip" data-part="' + i + '" aria-pressed="' + (i === 0) + '">' + esc(m.name) + '</button>';
+          return '<button class="chip" data-part="' + i + '" aria-pressed="' + (i === startPart) + '">' + esc(m.name) + '</button>';
         }).join('') + '</div>';
       }
     }
@@ -197,7 +207,9 @@
 
     openModal('<div class="dialog item-card" role="dialog" aria-modal="true" aria-label="' + esc(it.name) + '">' + pane + '<div class="dialog-body">' + body + '</div></div>');
     syncUrl();
-    if (it.models.length) startViewer(it);
+    if (it.models.length) startViewer(it, startPart);
+    var chosen = startPart && el.modal.querySelector('.viewer-parts [aria-pressed="true"]');
+    if (chosen) chosen.parentNode.scrollTop = chosen.offsetTop - chosen.parentNode.offsetTop;
   }
 
   function loadViewerScript() {
@@ -213,13 +225,13 @@
     return viewerScript;
   }
 
-  function startViewer(it) {
+  function startViewer(it, part) {
     loadViewerScript().then(function () {
       var host = $('viewer');
       // The card may have been closed, or swapped for another, while the script loaded.
       if (!host || state.item !== it.id) return;
       viewer = window.StoreViewer.mount(host, it.models, it.name);
-      if (viewer) viewer.show(0);
+      if (viewer) viewer.show(part || 0);
     });
   }
 
@@ -372,7 +384,10 @@
     fetch('products.json').then(function (r) { return r.json(); }).then(function (json) {
       data = json;
       gridItems = shuffledItems();
-      data.items.forEach(function (it) { itemsById[it.id] = it; });
+      data.items.forEach(function (it) {
+        Object.keys(it.aliases || {}).forEach(function (old) { itemsById[old] = it; });
+        itemsById[it.id] = it;
+      });
       data.books.forEach(function (b) { booksById[b.id] = b; });
       data.categories.forEach(function (c) { catLabels[c.id] = c.label; });
       renderBooks();

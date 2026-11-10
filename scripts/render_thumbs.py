@@ -282,11 +282,15 @@ def build_visuals(item, drive, thumbs_dir, models_dir, part_name):
             path = os.path.join(folder, f"{index + 1}.stl")
             write_binary_stl(triangles, path)
             models.append({"name": part_name(name), "path": path})
-        render_mesh(arrange_parts(meshes), thumb)
+        # A big set reads better as one part than as a crowd of small ones.
+        chosen = [m for (name, _), m in zip(stls, meshes) if name == item.get("thumbSource")]
+        render_mesh(chosen[0] if chosen else arrange_parts(meshes), thumb)
         return thumb, models
 
     if item.get("apertureColor"):
-        sheet = next(data for name, data in files if name.lower().endswith(".pdf"))
+        # Illustrator files are PDF-compatible, so either works as the cutting sheet.
+        sheets = [(name, data) for name, data in files if name.lower().endswith((".pdf", ".ai"))]
+        sheet = next((data for name, data in sheets if name == item.get("thumbSource")), sheets[0][1])
         aperture_tile(sheet, item["apertureColor"], thumb)
         return thumb, models
 

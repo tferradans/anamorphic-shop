@@ -42,6 +42,7 @@ def friendly_name(filename, keep_version=False):
     stem = re.sub(r"(?<=[A-Z])(?=[A-Z][a-z])", " ", stem)
     stem = re.sub(r"(?<=[a-z])(?=\d)", " ", stem)
     stem = re.sub(r"(?<=\d)(?=[A-Z][a-z])", " ", stem)
+    stem = re.sub(r"(?<![A-Za-z])f (?=\d)", "f/", stem)  # 'Leica 35mm f2.8' reads as f/2.8
     stem = re.sub(r"\s+", " ", stem).strip()
     return stem[:1].upper() + stem[1:]
 
@@ -200,6 +201,17 @@ def main(project):
             "tags": item.get("tags", []),
             "videos": linked,
         })
+        # Merged products keep their old ids, so links in videos and PDFs still open them,
+        # leading with the old product's video and part.
+        if item.get("aliases"):
+            names = {m["name"] for m in models}
+            for old_id, alias in item["aliases"].items():
+                if alias["part"] not in names or alias["video"] not in linked:
+                    raise SystemExit(f"{item['id']}: alias {old_id} names a part or video it doesn't have")
+            items[-1]["aliases"] = item["aliases"]
+        # Part names are searchable, so a lens inside a set finds the set.
+        if len(models) > 1:
+            items[-1]["parts"] = [m["name"] for m in models]
 
     for book in src["books"]:
         pdf_src = os.path.join(project, "Book PDFs fixed", book["pdfSource"])
