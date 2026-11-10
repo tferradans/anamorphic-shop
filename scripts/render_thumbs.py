@@ -251,16 +251,6 @@ def render_document(name, data, path, cap_colors=None):
     if extension in (".pdf", ".ai", ".svg"):
         with fitz.open(stream=data, filetype="svg" if extension == ".svg" else "pdf") as doc:
             page = doc[0]
-            if cap_colors is not None and extension != ".svg":
-                # Cap art can run past the artboard (the LOMO Van Diemen caps do), and
-                # the tile needs the whole circle, so widen the page to the drawing.
-                drawn = [d["rect"] for d in page.get_drawings()]
-                if drawn:
-                    art = fitz.Rect(drawn[0])
-                    for rect in drawn[1:]:
-                        art |= rect
-                    if not page.rect.contains(art):
-                        page.set_mediabox(art | page.rect)
             zoom = SIZE * 2 / max(page.rect.width, page.rect.height)
             pix = page.get_pixmap(matrix=fitz.Matrix(zoom, zoom), alpha=extension == ".svg")
             image = Image.open(io.BytesIO(pix.tobytes("png")))
