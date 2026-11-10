@@ -202,6 +202,11 @@
       if (videos.length > 1 + MORE_VIDEOS_SHOWN) body += '<span>+' + (videos.length - 1 - MORE_VIDEOS_SHOWN) + ' more videos use this file</span>';
       body += '</div>';
     }
+    if (it.links && it.links.length) {
+      body += '<div class="card-links">' + it.links.map(function (link) {
+        return '<a href="' + esc(link.url) + '" target="_blank" rel="noopener">' + esc(link.label) + '</a>';
+      }).join('') + '</div>';
+    }
     body += '<a class="btn btn-primary card-download" href="' + esc(it.file) + '" download="' + esc(it.downloadName) + '">' + ICON_DOWNLOAD +
       'Download ' + esc(it.format) + ' · ' + fmtSize(it.size) + '</a>';
 
