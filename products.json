@@ -1036,27 +1036,6 @@
    "videos": []
   },
   {
-   "id": "fun-lens-caps",
-   "name": "Donut and Tito Lens Caps",
-   "category": "design",
-   "art": "cap",
-   "format": "ZIP",
-   "size": 17090507,
-   "contents": "3 files: AI, PDF, PNG",
-   "description": "Two lens cap designs just for fun: a donut, and the Tito cap.",
-   "file": "files/fun-lens-caps.zip",
-   "downloadName": "Donut and Tito Lens Caps.zip",
-   "thumb": "img/items/fun-lens-caps.png",
-   "models": [],
-   "tags": [
-    "cap",
-    "donut",
-    "fun",
-    "color"
-   ],
-   "videos": []
-  },
-  {
    "id": "storyboard-template",
    "name": "Storyboard Template",
    "category": "design",
